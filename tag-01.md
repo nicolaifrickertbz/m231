@@ -86,13 +86,31 @@ anderen Programme. Richten Sie ihn heute ein, damit er am Prüfungstag sicher l�
 
 ### Teil 1
 Setzen Sie ihr Lernjournal auf (z. B. als Seite in Ihrem persönlichen Git-Repository) und geben Sie es der Lehrperson frei: GitLab **`@nfricker`** · GitHub **`nicolaifrickertbz`**. Legen Sie den Link am gewünschten Ort ab.
-- Starten Sie mit einer Struktur, zum Beispiel:
-    - Tagesjournal mit folgenden Fragen:
+- Starten Sie mit dieser Struktur:
+    - **Tagesjournal:** mindestens 9 Einträge, pro Unterrichtstag einer. Jeder Eintrag beantwortet:
         - Was habe ich heute gemacht?
         - Was habe ich heute gelernt?
-        - Was hat funktioniert (Methode)?
-        - Was würde ich für das nächste Mal anders machen?
-    - Modelle & erlernte Inhalte (eigene Zusammenfassungen)
+        - Was hat gut funktioniert / war schwierig?
+        - Was ist mein nächster Schritt? *oder* Was würde ich nächstes Mal anders machen?
+    - **Inhaltliche Vertiefungen:** mindestens 3 im ganzen Modul (nicht pro Tag). Kurze Zusammenfassung eines Themas in eigenen Worten, z. B. «Wie funktioniert asymmetrische Verschlüsselung?»
+- Pro Frage genügt ein Satz, wenn er mehr zeigt als das Thema.
+- Bewertet wird das Lernjournal in LB3, Kriterium 7 (8 Punkte): [lb3-auftrag.md](lbs/lb3/lb3-auftrag.md#kriterium-7-lernjournal-8-punkte).
+
+**Beispiel eines Tageseintrags (keine Vorlage):**
+
+> - **Was habe ich heute gemacht?** Mit Agent 1a Authentifizierung, Autorisierung und MFA durchgearbeitet.
+> - **Was habe ich heute gelernt?** Ich habe verstanden, weshalb MFA mindestens zwei *verschiedene* Faktoren braucht: Zwei Passwörter wären beide „Wissen" und würden bei Phishing gleichzeitig kompromittiert.
+> - **Was hat gut funktioniert / war schwierig?** Praktisch überraschte mich, wie günstig ein Passwort-Manager mit MFA-Schutz bereits ausreicht.
+> - **Was ist mein nächster Schritt?** Für LB3 möchte ich zwei Passwort-Manager vergleichen. Plan: bis Tag 7 Bitwarden und KeePassXC testen.
+
+**Schwacher Eintrag (Beispiel):**
+
+> «Heute haben wir Auth und Git gelernt. War interessant. Mache ich morgen weiter.»
+
+**Beispiel einer inhaltlichen Vertiefung (keine Vorlage):**
+
+> **Wie funktioniert Multi-Faktor-Authentifizierung?**
+> Bei der Anmeldung weise ich nach, wer ich bin. Dafür gibt es drei Arten von Faktoren: etwas, das ich weiss (Passwort, PIN), etwas, das ich besitze (Smartphone mit TOTP-App, Hardware-Token), und etwas, das ich bin (Fingerabdruck, Gesicht). MFA verlangt mindestens zwei *verschiedene* Faktoren. Passwort und Sicherheitsfrage sind deshalb keine MFA – beides ist Wissen und kann mit derselben Phishing-Mail abgegriffen werden. Mit Passwort und TOTP-Code reicht ein gestohlenes Passwort allein nicht mehr. SMS-Codes sind schwächer als eine App, weil die SMS übers Mobilfunknetz kommt und per SIM-Swapping umgeleitet werden kann.
 
 ---
 
