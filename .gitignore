@@ -1,0 +1,14 @@
+# Claude Code
+CLAUDE.md
+.claude/
+
+_book/*
+.vscode/settings.json
+
+.idea/
+.DS_Store
+
+# Moodle-Prüfungsimporte (enthalten Lösungen) – nie ins GitBook/öffentliche Repo.
+# Bewusst breit: Dieses Repo ist reines Markdown, jede XML hier ist ein Moodle-Export.
+*.xml
+

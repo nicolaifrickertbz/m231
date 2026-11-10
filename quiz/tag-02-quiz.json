@@ -1,0 +1,40 @@
+{
+  "title": "M231 Tag 2 – Repetitionsquiz",
+  "questions": [
+    {
+      "text": "Mit welchem Zeichen erstellt man in Markdown eine Überschrift erster Ebene?",
+      "options": ["#", "*", ">", "-"],
+      "correctIndex": 0,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Mit welcher Klammerform stellt man in einem Mermaid-Flowchart eine Entscheidung (Verzweigung) dar?",
+      "options": ["Eckige Klammern [ ]", "Geschweifte Klammern { }", "Runde Klammern ( )", "Anführungszeichen \" \""],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Welche Datenkategorie zählt zu den \"besonders schützenswerten Personendaten\" nach revDSG?",
+      "options": ["Postadresse", "Gesundheitsdaten", "Lieblingsfarbe", "Kontostand"],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Welcher Git-Befehl zeigt den aktuellen Zustand eines Repositories an (geänderte, gestagte Dateien)?",
+      "options": ["git log", "git status", "git diff", "git clone"],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Seit wann ist das revidierte Datenschutzgesetz (revDSG) der Schweiz in Kraft?",
+      "options": ["25.05.2018", "01.01.2020", "01.09.2023", "01.01.2025"],
+      "correctIndex": 2,
+      "timeLimit": 20,
+      "points": 1000
+    }
+  ]
+}

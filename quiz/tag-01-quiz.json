@@ -1,0 +1,54 @@
+{
+  "title": "M231 Tag 1 – Repetitionsquiz",
+  "questions": [
+    {
+      "text": "Was prüft die Authentifizierung?",
+      "options": ["Wer jemand ist", "Was jemand darf", "Wie lange ein Zugriff dauert", "Welche Daten gespeichert werden"],
+      "correctIndex": 0,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Wie viele UNTERSCHIEDLICHE Faktorenkategorien braucht MFA mindestens?",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Welche der folgenden ist KEINE Faktorenkategorie der Authentifizierung?",
+      "options": ["Wissen", "Besitz", "Biometrie", "Reputation"],
+      "correctIndex": 3,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Was besagt das Prinzip \"Least Privilege\"?",
+      "options": ["Jede Person erhält Admin-Rechte", "Nutzer:innen erhalten nur die Rechte, die sie für ihre Aufgabe brauchen", "Passwörter müssen möglichst kurz sein", "Zugriffsrechte werden nie überprüft"],
+      "correctIndex": 1,
+      "timeLimit": 25,
+      "points": 1000
+    },
+    {
+      "text": "Bei welcher Social-Engineering-Methode wird das Opfer telefonisch kontaktiert?",
+      "options": ["Phishing", "Vishing", "Baiting", "Pretexting"],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Was ist der Hauptvorteil eines Passwort-Managers?",
+      "options": ["Er merkt sich nur ein Passwort für den Nutzer", "Er generiert und speichert einzigartige, komplexe Passwörter pro Dienst", "Er macht MFA überflüssig", "Er verschlüsselt automatisch alle E-Mails"],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Wie darf KI gemäss dem KI-Nutzungsrahmen in M231 genutzt werden?",
+      "options": ["Um Prüfungsantworten bei LB1/LB2 zu schreiben", "Um Lernjournal-Reflexionen komplett zu verfassen", "Um Erklärungen einzufordern und Rückfragen zu stellen", "Um das GPG-Setup vollständig zu ersetzen"],
+      "correctIndex": 2,
+      "timeLimit": 25,
+      "points": 1000
+    }
+  ]
+}

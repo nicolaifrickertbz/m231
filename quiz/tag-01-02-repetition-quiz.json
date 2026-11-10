@@ -1,0 +1,47 @@
+{
+  "title": "M231 Tag 1+2 – Repetitionsquiz",
+  "questions": [
+    {
+      "text": "Wofür sind Push-Benachrichtigungen als MFA-Methode besonders anfällig, wenn Angreifer den Nutzer mit vielen Anfragen bombardieren?",
+      "options": ["SIM-Swapping", "MFA-Fatigue-Angriffe", "Phishing per Post", "Kein bekanntes Risiko"],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Was ist der Vorteil einer Passphrase wie \"Kiwi-Balkon-Torte-7-Mond\" gegenüber einem kurzen, komplexen Passwort?",
+      "options": ["Sie ist lang und trotzdem gut merkbar", "Sie braucht keine Zahlen oder Sonderzeichen", "Sie wird automatisch verschlüsselt gespeichert", "Sie funktioniert nur mit Passwort-Manager"],
+      "correctIndex": 0,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Wie nennt man Social Engineering, das per Telefonanruf durchgeführt wird?",
+      "options": ["Phishing", "Baiting", "Vishing", "Pretexting"],
+      "correctIndex": 2,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Welcher Git-Befehl speichert die Änderungen aus der Staging Area als Snapshot im lokalen Repository?",
+      "options": ["git push", "git add", "git commit", "git pull"],
+      "correctIndex": 2,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Welches Gesetz gilt für alle Unternehmen, die Daten von EU-Bürger:innen bearbeiten – unabhängig vom Firmensitz?",
+      "options": ["revDSG", "DSGVO", "Modulbaukasten M231", "EDÖB-Verordnung"],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    },
+    {
+      "text": "Innerhalb welcher Frist muss eine meldepflichtige Datenpanne dem EDÖB gemeldet werden?",
+      "options": ["24 Stunden", "72 Stunden", "7 Tage", "30 Tage"],
+      "correctIndex": 1,
+      "timeLimit": 20,
+      "points": 1000
+    }
+  ]
+}
