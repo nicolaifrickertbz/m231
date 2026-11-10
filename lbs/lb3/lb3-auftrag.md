@@ -100,7 +100,7 @@ Das Lernjournal ist ein **laufendes Reflexionsdokument** in Ihrem Git-Repository
   - Was habe ich heute gelernt?
   - Was hat gut funktioniert / war schwierig?
   - Was ist mein nächster Schritt?
-- Mindestens **3 inhaltliche Vertiefungen**: Kurze Zusammenfassung eines Themas in eigenen Worten (z. B. «Wie funktioniert asymmetrische Verschlüsselung?»)
+- **Inhaltliche Vertiefungen**: Kurze Zusammenfassung eines Themas in eigenen Worten (z. B. «Wie funktioniert asymmetrische Verschlüsselung?»)
 
 **Bewertung:**
 | Teilkriterium | Punkte |
@@ -108,7 +108,7 @@ Das Lernjournal ist ein **laufendes Reflexionsdokument** in Ihrem Git-Repository
 | Regelmässigkeit (mind. 9 Einträge) | 2 P |
 | Tiefe der Reflexion (mehr als Aufzählung) | 2 P |
 | Bezug zu Handlungszielen / Modulinhalten | 2 P |
-| Inhaltliche Vertiefungen (mind. 3) | 2 P |
+| Inhaltliche Vertiefungen | 2 P |
 | **Total** | **8 P** |
 
 ---
