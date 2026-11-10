@@ -92,7 +92,7 @@ Setzen Sie ihr Lernjournal auf (z. B. als Seite in Ihrem persönlichen Git-Repos
         - Was habe ich heute gelernt?
         - Was hat gut funktioniert / war schwierig?
         - Was ist mein nächster Schritt? *oder* Was würde ich nächstes Mal anders machen?
-    - **Inhaltliche Vertiefungen:** mindestens 3 im ganzen Modul (nicht pro Tag). Kurze Zusammenfassung eines Themas in eigenen Worten, z. B. «Wie funktioniert asymmetrische Verschlüsselung?»
+    - **Inhaltliche Vertiefungen:** Kurze Zusammenfassung eines Themas in eigenen Worten, z. B. «Wie funktioniert asymmetrische Verschlüsselung?»
 - Pro Frage genügt ein Satz, wenn er mehr zeigt als das Thema.
 - Bewertet wird das Lernjournal in LB3, Kriterium 7 (8 Punkte): [lb3-auftrag.md](lbs/lb3/lb3-auftrag.md#kriterium-7-lernjournal-8-punkte).
 
