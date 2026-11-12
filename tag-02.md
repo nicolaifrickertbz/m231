@@ -216,7 +216,7 @@ Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und 
 
 <details>
   <summary>
-	Block: Datenschutzrecht – Gruppenrecherche & Einzelrecherche (~85')
+	Block: Datenschutzrecht – Gruppenrecherche & Präsentation (~50')
   </summary>
 
 ## Datenschutzrecht: revDSG und DSGVO
@@ -324,40 +324,6 @@ flowchart TD
 
 ---
 
-### Einzelrecherche: Datenpanne im Treuhandbüro
-
-> Sozialform: Einzelarbeit
-> Dauer: ~35min
-> Abgabe: MS-Teams Assignment
-
-**Ausgangslage:** Ein Treuhandbüro in Winterthur betreut rund 400 Kunden. Gestern hat es bemerkt,
-dass Unbekannte auf die Kundendatenbank zugegriffen haben. Darin stehen Namen, Adressen,
-AHV-Nummern und Steuerunterlagen. Ob die Daten kopiert wurden, ist noch unklar. Etwa 30 Kunden
-wohnen in Deutschland, das Büro betreut sie seit Jahren.
-
-Beantworten Sie die vier Fragen. Belegen Sie **jede Antwort mit dem Gesetzesartikel und einem Link
-auf die offizielle Quelle**. KI dürfen Sie beim Suchen nutzen. Was zählt, ist der Beleg im
-Gesetzestext, nicht die Aussage der KI.
-
-1. Gilt für diesen Fall das **revDSG**? Gilt die **DSGVO**? Begründen Sie beides.
-2. Muss das Büro die Panne **melden**? Wem, unter welcher Bedingung und in welcher Frist — nach
-   revDSG und nach DSGVO?
-3. Müssen die **Kunden informiert** werden? Unter welcher Bedingung — nach revDSG und nach DSGVO?
-4. Sind **Steuerunterlagen** besonders schützenswerte Personendaten im Sinne des revDSG? Was folgt
-   daraus für die Beurteilung des Risikos?
-
-**Pro Frage:** Antwort in 2–4 Sätzen · Artikel · Link.
-
-**Offizielle Quellen:**
-
-- revDSG (Datenschutzgesetz, SR 235.1): <https://www.fedlex.admin.ch/eli/cc/2022/491/de>
-- DSGVO: <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679>
-- EDÖB: <https://www.edoeb.admin.ch/de>
-
-Einzelne Abgaben werden am Schluss im Plenum besprochen.
-
----
-
 **Zum Nachlernen (LB1):** 🤖 Copilot-Agent [M231 T02c Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen. Er führt Schritt für Schritt durch revDSG und DSGVO.
 
 *(Die Themen "Datenschutz vs. Datensicherheit" und die Transferaufgabe zum Auskunftsbegehren folgen an Tag 3.)*
@@ -367,22 +333,64 @@ Einzelne Abgaben werden am Schluss im Plenum besprochen.
 
 <details>
   <summary>
-	Block: Arbeit am Lernjournal
+	Block: Arbeit am Lernjournal (~50')
   </summary>
 
 ## Arbeit am Lernjournal
 
-> Sozialform: Einzelarbeit
-> Dauer: restliche Zeit
+Nach den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3» (gut vs. schwacher Eintrag) folgt nun betreute Arbeitszeit: Sie schreiben Ihre Lernjournal-Einträge zu Tag 1 und Tag 2, tauschen sich mit einer Partnerin/einem Partner aus und erhalten Feedback anhand der Kriterientabelle.
+
+> Sozialform: Einzelarbeit → Partnerarbeit → Plenum
+> Dauer: ~50min, restliche Zeit (5min Repo-/Struktur-Check, 30min Schreibarbeit, 10min Peer-Feedback, 5min Abschlussreflexion)
 > Abgabe: Lernjournal-Einträge Tag 1 & Tag 2 im persönlichen Git-Repo committet
 
-Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **Tag 2**. Orientieren Sie sich an den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3»:
+---
+
+### Repo- und Struktur-Check (5')
+
+> Sozialform: Einzelarbeit, Lehrperson im Rundgang
+> Dauer: 5min
+
+1. Öffnen Sie Ihr persönliches Lernjournal-Repository.
+2. Prüfen Sie: Ist die Struktur nachvollziehbar (z. B. eine Datei/ein Abschnitt pro Tag)? Ist die `mermaid-challenge.md` aus dem Vormittag committet?
+3. Die Lehrperson geht kurz durch die Reihen und beantwortet offene technische Fragen (Markdown, Git-Befehle).
+
+---
+
+### Schreibarbeit (30')
+
+> Sozialform: Einzelarbeit
+> Dauer: 30min
+
+Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **Tag 2**. Orientieren Sie sich an den Qualitäts-Tipps von vorhin:
 
 - Konkrete Konzepte, Befehle und Beispiele statt vager Aussagen
 - Reflexion: Was war neu, überraschend oder schwierig – und warum?
 - Bezug zu Handlungszielen (HZ) herstellen, wo passend
 - Offene Punkte mit konkretem Plan und Zeitangabe festhalten
 
-Nutzen Sie dazu die heutigen Themen: Git/Markdown (Mermaid-Challenge) und Datenschutzrecht (Gruppenrecherche mit Präsentation, Einzelrecherche «Datenpanne im Treuhandbüro»).
+Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Gruppenrecherche und Präsentationen).
+
+---
+
+### Peer-Feedback (10')
+
+> Sozialform: Partnerarbeit
+> Dauer: 10min
+> Abgabe: mündliches Feedback an Partner:in
+
+Tauschen Sie Ihr Lernjournal (Bildschirm oder Link) mit einer Sitznachbarin / einem Sitznachbarn:
+1. Lesen Sie den Eintrag Ihres Gegenübers.
+2. Geben Sie anhand der Kriterientabelle (Konkretheit, Reflexion, Bezug zu HZ, Planung, Eigenständigkeit) mündlich Feedback: Was ist bereits stark? Was könnte vertieft werden?
+3. Notieren Sie sich selbst mindestens einen Verbesserungspunkt aus dem erhaltenen Feedback.
+
+---
+
+### Abschlussreflexion (5')
+
+> Sozialform: Einzelarbeit → Plenum
+> Dauer: 5min
+
+Ergänzen Sie Ihren Eintrag um den Verbesserungspunkt aus dem Peer-Feedback. Im Plenum: Wer möchte eine besonders gelungene Formulierung oder einen Aha-Moment teilen?
 
 </details>
