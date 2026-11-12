@@ -176,7 +176,7 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 |---|---|---|
 | **Konkretheit** | Nennt spezifische Konzepte, Befehle, Beispiele | Bleibt vage und allgemein |
 | **Reflexion** | Erklärt, was überraschend/neu/schwierig war und warum | Beschreibt nur, was gemacht wurde |
-| **Bezug zu Handlungszielen** | Verknüpft Inhalt mit HZ (z. B. «Das betrifft HZ 2.3: MFA») | Kein Bezug zu Lernzielen |
+| **Bezug zur Kompetenzmatrix** | Verknüpft Inhalt mit einer Kompetenz der [Kompetenzmatrix M231](https://www.modulbaukasten.ch/module/231/1/de-DE?title=Datenschutz-und-Datensicherheit-anwenden&tab=2&degree=13d8d40b-6d82-eb11-a812-0022486f6f83) (z. B. «Das betrifft E1I: Passwort-Manager einsetzen») | Kein Bezug zu Lernzielen |
 | **Planung** | Konkreter Plan für offene Punkte mit Zeitangabe | Keine oder vage Planung |
 | **Eigenständigkeit** | Eigene Gedanken, Fragen, kritische Überlegungen | Zusammenfassung aus Unterlagen |
 
@@ -366,7 +366,7 @@ Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **T
 
 - Konkrete Konzepte, Befehle und Beispiele statt vager Aussagen
 - Reflexion: Was war neu, überraschend oder schwierig – und warum?
-- Bezug zu Handlungszielen (HZ) herstellen, wo passend
+- Bezug zur [Kompetenzmatrix M231](https://www.modulbaukasten.ch/module/231/1/de-DE?title=Datenschutz-und-Datensicherheit-anwenden&tab=2&degree=13d8d40b-6d82-eb11-a812-0022486f6f83) herstellen (z. B. A1B, E1I), wo passend
 - Offene Punkte mit konkretem Plan und Zeitangabe festhalten
 
 Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Gruppenrecherche und Präsentationen).
@@ -381,7 +381,7 @@ Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht
 
 Tauschen Sie Ihr Lernjournal (Bildschirm oder Link) mit einer Sitznachbarin / einem Sitznachbarn:
 1. Lesen Sie den Eintrag Ihres Gegenübers.
-2. Geben Sie anhand der Kriterientabelle (Konkretheit, Reflexion, Bezug zu HZ, Planung, Eigenständigkeit) mündlich Feedback: Was ist bereits stark? Was könnte vertieft werden?
+2. Geben Sie anhand der Kriterientabelle (Konkretheit, Reflexion, Bezug zur Kompetenzmatrix, Planung, Eigenständigkeit) mündlich Feedback: Was ist bereits stark? Was könnte vertieft werden?
 3. Notieren Sie sich selbst mindestens einen Verbesserungspunkt aus dem erhaltenen Feedback.
 
 ---
