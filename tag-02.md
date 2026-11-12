@@ -72,14 +72,14 @@ Erlaubt: Erklärungen einfordern, Rückfragen stellen, Prompt-Übungen/Testdaten
 
 <details>
   <summary>
-	Block: Einführung Git/Markdown & LB3 (~35')
+	Block: Einführung Git/Markdown & LB3 (~50')
   </summary>
 
 → **[LB3 – Auftrag & Bewertungsraster](lbs/lb3/lb3-auftrag.md)**
 
 ### Der Git-Workflow
 
-> 🤖 **Copilot-Agent:** [M231 T02a Git & Markdown](https://m365.cloud.microsoft/chat/?titleId=T_24e32efa-32ba-1462-2a58-03127fa5ff11&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
+> 🤖 **Copilot-Agent:** [M231 T02a Git](https://m365.cloud.microsoft/chat/?titleId=T_24e32efa-32ba-1462-2a58-03127fa5ff11&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
 
 Git verwaltet Änderungen an Dateien in mehreren Schichten. Das folgende Diagramm zeigt den grundlegenden Arbeitsablauf:
 
@@ -108,35 +108,6 @@ flowchart LR
 | `git push` | Lokale Commits ins Remote-Repo hochladen |
 | `git pull` | Änderungen vom Remote-Repo herunterladen |
 | `git log` | Commit-Historie anzeigen |
-
----
-
-### Mermaid-Challenge: Spaghetti kochen als Flowchart
-
-> Sozialform: Gruppenarbeit (3–4 Personen)
-> Dauer: 10min
-> Abgabe: Link zur Datei, Vorstellung/Prämierung im Verlauf des Tages
-
-Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und der Lehrperson freigegeben. Sie haben oben im Git-Workflow-Diagramm gesehen, wie ein Ablauf als Mermaid-Flowchart dargestellt wird – jetzt sind Sie dran!
-
-**Mermaid-Flowchart – die wichtigsten Elemente:**
-
-| Element | Syntax | Bedeutung |
-|---|---|---|
-| Diagrammblock | ` ```mermaid ` … ` ``` ` | Kennzeichnet den Diagrammcode |
-| Richtung | `flowchart TD` / `flowchart LR` | Top-Down bzw. Left-Right |
-| Schritt (Rechteck) | `A["Text"]` | normaler Prozessschritt |
-| Entscheidung (Raute) | `B{"Frage?"}` | Verzweigung |
-| Pfeil | `A --> B` | Ablauf |
-| Beschrifteter Pfeil | `A -- "Ja" --> C` | Ablauf mit Bedingung |
-
-1. Bilden Sie eine Gruppe von 3–4 Personen (nach Sitzordnung).
-2. Modellieren Sie gemeinsam den Prozess **«Spaghetti kochen»** als Flowchart – mit **mindestens einer Entscheidung/Verzweigung** (z. B. «Wasser am Kochen?», «Spaghetti al dente?», «Sauce fertig?»). Alle Gruppen bearbeiten denselben Prozess – das macht die Diagramme direkt vergleichbar.
-3. Entwerft und prüft euer Diagramm im Online-Editor **[mermaid.live](https://mermaid.live/)** – dort seht ihr die Grafik live, ohne committen zu müssen.
-4. Legt in **eurem persönlichen Git-Repository** (aus Tag 1) eine neue Datei `mermaid-challenge.md` an und fügt den fertigen Code aus mermaid.live ein – am schnellsten direkt über «Add file» im Browser auf GitHub/GitLab, ohne lokales Klonen.
-5. Committet die Datei und gebt den Link im Klassen-Chat/MS Teams ab.
-
-> 🏆 **Prämierung:** Die Lehrperson wählt das kreativste bzw. klarste Diagramm – die Gewinner-Gruppe erhält einen kleinen Preis. Auflösung im Verlauf des Tages.
 
 ---
 
@@ -209,37 +180,72 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 | **Planung** | Konkreter Plan für offene Punkte mit Zeitangabe | Keine oder vage Planung |
 | **Eigenständigkeit** | Eigene Gedanken, Fragen, kritische Überlegungen | Zusammenfassung aus Unterlagen |
 
+---
+
+### Mermaid-Challenge: Spaghetti kochen als Flowchart
+
+> Sozialform: Gruppenarbeit (3–4 Personen)
+> Dauer: 20min
+> Abgabe: Link zur Datei, Vorstellung/Prämierung im Verlauf des Tages
+
+Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und der Lehrperson freigegeben. Sie haben oben im Git-Workflow-Diagramm gesehen, wie ein Ablauf als Mermaid-Flowchart dargestellt wird – jetzt sind Sie dran!
+
+> 📘 **Tutorial:** [Mermaid – Flowchart-Syntax](https://mermaid.js.org/syntax/flowchart.html) (offizielle Dokumentation, Englisch) — die Abschnitte zu Richtung, Formen und Pfeilen genügen; jedes Beispiel lässt sich mit «Run» ausprobieren. Auf Deutsch: [GitHub Docs – Erstellen von Diagrammen](https://docs.github.com/de/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
+
+**Mermaid-Flowchart – die wichtigsten Elemente:**
+
+| Element | Syntax | Bedeutung |
+|---|---|---|
+| Diagrammblock | ` ```mermaid ` … ` ``` ` | Kennzeichnet den Diagrammcode |
+| Richtung | `flowchart TD` / `flowchart LR` | Top-Down bzw. Left-Right |
+| Schritt (Rechteck) | `A["Text"]` | normaler Prozessschritt |
+| Entscheidung (Raute) | `B{"Frage?"}` | Verzweigung |
+| Pfeil | `A --> B` | Ablauf |
+| Beschrifteter Pfeil | `A -- "Ja" --> C` | Ablauf mit Bedingung |
+
+1. Bilden Sie eine Gruppe von 3–4 Personen (nach Sitzordnung).
+2. Modellieren Sie gemeinsam den Prozess **«Spaghetti kochen»** als Flowchart – mit **mindestens einer Entscheidung/Verzweigung** (z. B. «Wasser am Kochen?», «Spaghetti al dente?», «Sauce fertig?»). Alle Gruppen bearbeiten denselben Prozess – das macht die Diagramme direkt vergleichbar.
+3. Entwerft und prüft euer Diagramm im Online-Editor **[mermaid.live](https://mermaid.live/)** – dort seht ihr die Grafik live, ohne committen zu müssen.
+4. Legt in **eurem persönlichen Git-Repository** (aus Tag 1) eine neue Datei `mermaid-challenge.md` an und fügt den fertigen Code aus mermaid.live ein – am schnellsten direkt über «Add file» im Browser auf GitHub/GitLab, ohne lokales Klonen.
+5. Committet die Datei und gebt den Link im Klassen-Chat/MS Teams ab.
+
+> 🏆 **Prämierung:** Die Lehrperson wählt das kreativste bzw. klarste Diagramm – die Gewinner-Gruppe erhält einen kleinen Preis. Auflösung im Verlauf des Tages.
+
 </details>
 
 
 <details>
   <summary>
-	Block: Datenschutzrecht – Gruppenpuzzle DSG & DSGVO (~45')
+	Block: Datenschutzrecht – Gruppenrecherche & Präsentation (~50')
   </summary>
 
-## Gruppenpuzzle: Datenschutzrecht im Überblick
+## Datenschutzrecht: revDSG und DSGVO
 
-> 🤖 **Copilot-Agent:** [M231 T02b Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
+### Gruppenrecherche mit Präsentation
 
-Dieses Thema wird im **Gruppenpuzzle** (Jigsaw-Methode) erarbeitet: Jede Klein­gruppe (Expertengruppe) erarbeitet zunächst nur *ein* Thema vertieft. Danach werden die Gruppen neu gemischt (Stammgruppen), sodass in jeder neuen Gruppe ein:e Expert:in pro Thema sitzt – diese erklären sich gegenseitig ihr Thema.
+> Sozialform: Gruppenarbeit (4 Teams à 4 Personen) → Plenum
+> Dauer: 25min Vorbereitung, 25min Präsentationen (5min pro Team)
+> Abgabe: keine
 
-> Sozialform: Gruppenarbeit (Expertengruppen → Stammgruppen) → Plenum
-> Dauer: 45min (5min Einteilung, 12min Expertenphase, 18min Austauschphase, 10min Sicherung im Plenum)
-> Abgabe: mündliche Erklärung in der Stammgruppe + Kernpunkte im Plenum
+Jedes Team erhält eines der Themen A–D und präsentiert es der Klasse in **5 Minuten**.
 
-**Ablauf:**
-1. **Einteilung (5'):** Die Klasse wird in 4 Expertengruppen eingeteilt – je eine pro Thema (A–D unten).
-2. **Expertenphase (12'):** Jede Expertengruppe liest **nur ihren Abschnitt** und klärt gemeinsam: Was sind die 3–4 wichtigsten Punkte? Wie würde ich das in eigenen Worten erklären?
-3. **Austauschphase (18'):** Neue Stammgruppen bilden (aus jeder Expertengruppe eine Person). Reihum erklärt jede:r ihr Thema (~4' pro Person) – die anderen hören zu und dürfen Rückfragen stellen.
-4. **Sicherung (10', Plenum):** Offene Fragen klären, Kernpunkte/Merksätze gemeinsam festhalten.
+1. Lesen Sie den Text zu Ihrem Thema. Er ist der Startpunkt, nicht die Quelle.
+2. Prüfen Sie jede Aussage in der offiziellen Quelle und notieren Sie den **Artikel**.
+3. Bereiten Sie die Präsentation vor: die wichtigsten Punkte, ein eigenes Beispiel, zu jeder
+   Kernaussage **Artikel und Link** auf die offizielle Quelle.
 
----
+Weicht der Text von der Quelle ab, gilt die Quelle. Sagen Sie das in der Präsentation.
+Präsentiert wird in der Reihenfolge A–D.
 
-### Thema A (Expertengruppe A): Schweizer Datenschutzgesetz (revDSG) – Grundsätze
+**Offizielle Quellen:**
+
+- revDSG (Datenschutzgesetz, SR 235.1): <https://www.fedlex.admin.ch/eli/cc/2022/491/de>
+- DSGVO: <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679>
+- EDÖB: <https://www.edoeb.admin.ch/de>
+
+#### Thema A: Schweizer Datenschutzgesetz (revDSG) – Grundsätze
 
 Das revidierte **Datenschutzgesetz (revDSG)** ist seit dem 1. September 2023 in Kraft.
-
-**Wichtigste Grundsätze:**
 
 | Grundsatz | Bedeutung |
 |---|---|
@@ -250,24 +256,25 @@ Das revidierte **Datenschutzgesetz (revDSG)** ist seit dem 1. September 2023 in 
 | **Datensicherheit** | Angemessene technische und organisatorische Massnahmen |
 | **Transparenz** | Betroffene müssen informiert werden |
 
----
+#### Thema B: Besonders schützenswerte Personendaten
 
-### Thema B (Expertengruppe B): Besonders schützenswerte Personendaten
+**Besonders schützenswerte Personendaten (Art. 5 lit. c revDSG):**
 
-**Besonders schützenswerte Personendaten (Art. 5 revDSG):**
-- Religiöse, weltanschauliche, politische Ansichten
-- Gesundheit, Intimsphäre, Rassenzugehörigkeit
-- Massnahmen der sozialen Hilfe
-- Strafrechtliche Verfolgungen/Sanktionen
-- Biometrische und genetische Daten
+- Religiöse, weltanschauliche, politische oder gewerkschaftliche Ansichten oder Tätigkeiten
+- Gesundheit, Intimsphäre, Zugehörigkeit zu einer Rasse oder Ethnie
+- Genetische Daten
+- Biometrische Daten, die eine Person eindeutig identifizieren
+- Daten über verwaltungs- und strafrechtliche Verfolgungen oder Sanktionen
+- Daten über Massnahmen der sozialen Hilfe
 
-Für diese Datenkategorien gelten strengere Anforderungen (z. B. explizite Einwilligung, höheres Schutzniveau) als für gewöhnliche Personendaten.
+Für diese Datenkategorien gelten strengere Anforderungen (z. B. ausdrückliche Einwilligung,
+höheres Schutzniveau) als für gewöhnliche Personendaten.
 
----
+#### Thema C: DSGVO-Betroffenenrechte & Vergleich revDSG/DSGVO
 
-### Thema C (Expertengruppe C): DSGVO-Betroffenenrechte & Vergleich DSG/DSGVO
-
-Die **DSGVO** gilt für alle Unternehmen, die Daten von EU-Bürgern bearbeiten – unabhängig vom Firmensitz.
+Die **DSGVO** gilt auch für Unternehmen ausserhalb der EU, wenn sie **Personen in der EU** Waren oder
+Dienstleistungen anbieten oder deren Verhalten beobachten (Marktortprinzip). Massgebend ist, wo sich
+die Person befindet, nicht ihre Staatsangehörigkeit.
 
 **Betroffenenrechte (Auswahl):**
 
@@ -275,32 +282,31 @@ Die **DSGVO** gilt für alle Unternehmen, die Daten von EU-Bürgern bearbeiten �
 |---|---|
 | Auskunftsrecht | Ich kann fragen, welche Daten über mich gespeichert sind |
 | Recht auf Berichtigung | Falsche Daten müssen korrigiert werden |
-| Recht auf Löschung | „Recht auf Vergessenwerden" |
+| Recht auf Löschung | «Recht auf Vergessenwerden» |
 | Recht auf Datenübertragbarkeit | Daten in maschinenlesbarem Format herausgeben |
 | Widerspruchsrecht | Gegen bestimmte Datenbearbeitungen widersprechen |
 
-**Vergleich DSG vs. DSGVO:**
+**Vergleich revDSG vs. DSGVO:**
 
 | Aspekt | revDSG (CH) | DSGVO (EU) |
 |---|---|---|
 | Geltungsbereich | Schweiz | EU / EWR |
 | In Kraft | 01.09.2023 | 25.05.2018 |
-| Bussgelder | bis CHF 250'000 (Privatpersonen) | bis € 20 Mio. oder 4% des weltweiten Umsatzes |
-| Datenschutzbeauftragter | empfohlen | Pflicht (ab best. Grösse) |
+| Bussen | bis CHF 250'000, gegen die verantwortliche natürliche Person | bis € 20 Mio. oder 4 % des weltweiten Jahresumsatzes, gegen das Unternehmen |
+| Datenschutzberater/-beauftragter | für private Unternehmen freiwillig (Datenschutzberater) | Pflicht für Behörden und für Unternehmen, deren Kerntätigkeit umfangreiche Überwachung oder die umfangreiche Bearbeitung besonders sensibler Daten ist |
 | Auskunftsrecht | Ja | Ja |
 
----
+#### Thema D: Meldepflicht bei Datenpannen – der Prozess
 
-### Thema D (Expertengruppe D): Meldepflicht bei Datenpannen – der Prozess
-
-Wenn Personendaten unbefugt offenbart, gelöscht oder verändert werden, greift die Meldepflicht. Der folgende Prozess zeigt, was zu tun ist:
+Wenn Personendaten unbefugt offenbart, verändert, gelöscht werden oder verloren gehen, liegt eine
+Verletzung der Datensicherheit vor. Der folgende Prozess zeigt, was zu tun ist:
 
 ```mermaid
 flowchart TD
   A["Datenpanne erkannt\n(Verlust, Zugriff, Veröffentlichung\nvon Personendaten)"]
-  B{"Ist die Panne\nmeldepflichtig?\n(voraussichtlich hohes Risiko\nfür Betroffene)"}
-  C["Meldung an EDÖB\ninnert 72 Stunden\n(revDSG / DSGVO-Anforderung)"]
-  D["Betroffene Personen\nunverzüglich informieren\n(bei hohem Risiko)"]
+  B{"Ist die Panne\nmeldepflichtig?\nrevDSG: voraussichtlich hohes Risiko\nDSGVO: ausser voraussichtlich kein Risiko"}
+  C["Meldung\nrevDSG: an den EDÖB so rasch als möglich\nDSGVO: an die Aufsichtsbehörde\nmöglichst innert 72 Stunden"]
+  D["Betroffene informieren\nrevDSG: wenn zu ihrem Schutz erforderlich\noder vom EDÖB verlangt\nDSGVO: bei voraussichtlich hohem Risiko"]
   E["Massnahmen ergreifen\nLücke schliessen, Schäden\nbegrenzen, Forensik"]
   F["Intern dokumentieren\nVorfall aufzeichnen,\nkeine externe Meldung nötig"]
   G["Nachkontrolle\nMassnahmen prüfen,\nWiederholung verhindern"]
@@ -318,9 +324,7 @@ flowchart TD
 
 ---
 
-### Sicherung im Plenum
-
-Zurück im Plenum: Klären Sie offene Fragen aus den Stammgruppen und halten Sie zu jedem der vier Themen (A–D) gemeinsam einen Merksatz fest.
+**Zum Nachlernen (LB1):** 🤖 Copilot-Agent [M231 T02c Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen. Er führt Schritt für Schritt durch revDSG und DSGVO.
 
 *(Die Themen "Datenschutz vs. Datensicherheit" und die Transferaufgabe zum Auskunftsbegehren folgen an Tag 3.)*
 
@@ -329,23 +333,23 @@ Zurück im Plenum: Klären Sie offene Fragen aus den Stammgruppen und halten Sie
 
 <details>
   <summary>
-	Block: Arbeit am Lernjournal (~75')
+	Block: Arbeit am Lernjournal (~50')
   </summary>
 
 ## Arbeit am Lernjournal
 
-Nach den Qualitäts-Tipps aus dem Git/Markdown-Block (gut vs. schwacher Eintrag) folgt nun betreute Arbeitszeit: Sie schreiben Ihre Lernjournal-Einträge zu Tag 1 und Tag 2, tauschen sich mit einer Partnerin/einem Partner aus und erhalten Feedback anhand der Kriterientabelle.
+Nach den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3» (gut vs. schwacher Eintrag) folgt nun betreute Arbeitszeit: Sie schreiben Ihre Lernjournal-Einträge zu Tag 1 und Tag 2, tauschen sich mit einer Partnerin/einem Partner aus und erhalten Feedback anhand der Kriterientabelle.
 
 > Sozialform: Einzelarbeit → Partnerarbeit → Plenum
-> Dauer: 75min (10min Repo-/Struktur-Check, 40min Schreibarbeit, 15min Peer-Feedback, 10min Abschlussreflexion)
+> Dauer: ~50min, restliche Zeit (5min Repo-/Struktur-Check, 30min Schreibarbeit, 10min Peer-Feedback, 5min Abschlussreflexion)
 > Abgabe: Lernjournal-Einträge Tag 1 & Tag 2 im persönlichen Git-Repo committet
 
 ---
 
-### Repo- und Struktur-Check (10')
+### Repo- und Struktur-Check (5')
 
 > Sozialform: Einzelarbeit, Lehrperson im Rundgang
-> Dauer: 10min
+> Dauer: 5min
 
 1. Öffnen Sie Ihr persönliches Lernjournal-Repository.
 2. Prüfen Sie: Ist die Struktur nachvollziehbar (z. B. eine Datei/ein Abschnitt pro Tag)? Ist die `mermaid-challenge.md` aus dem Vormittag committet?
@@ -353,10 +357,10 @@ Nach den Qualitäts-Tipps aus dem Git/Markdown-Block (gut vs. schwacher Eintrag)
 
 ---
 
-### Schreibarbeit (40')
+### Schreibarbeit (30')
 
 > Sozialform: Einzelarbeit
-> Dauer: 40min
+> Dauer: 30min
 
 Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **Tag 2**. Orientieren Sie sich an den Qualitäts-Tipps von vorhin:
 
@@ -365,14 +369,14 @@ Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **T
 - Bezug zu Handlungszielen (HZ) herstellen, wo passend
 - Offene Punkte mit konkretem Plan und Zeitangabe festhalten
 
-Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Gruppenpuzzle DSG/DSGVO).
+Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Gruppenrecherche und Präsentationen).
 
 ---
 
-### Peer-Feedback (15')
+### Peer-Feedback (10')
 
 > Sozialform: Partnerarbeit
-> Dauer: 15min
+> Dauer: 10min
 > Abgabe: mündliches Feedback an Partner:in
 
 Tauschen Sie Ihr Lernjournal (Bildschirm oder Link) mit einer Sitznachbarin / einem Sitznachbarn:
@@ -382,10 +386,10 @@ Tauschen Sie Ihr Lernjournal (Bildschirm oder Link) mit einer Sitznachbarin / ei
 
 ---
 
-### Abschlussreflexion (10')
+### Abschlussreflexion (5')
 
 > Sozialform: Einzelarbeit → Plenum
-> Dauer: 10min
+> Dauer: 5min
 
 Ergänzen Sie Ihren Eintrag um den Verbesserungspunkt aus dem Peer-Feedback. Im Plenum: Wer möchte eine besonders gelungene Formulierung oder einen Aha-Moment teilen?
 
