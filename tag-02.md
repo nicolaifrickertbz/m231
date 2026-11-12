@@ -79,7 +79,7 @@ Erlaubt: Erklärungen einfordern, Rückfragen stellen, Prompt-Übungen/Testdaten
 
 ### Der Git-Workflow
 
-> 🤖 **Copilot-Agent:** [M231 T02a Git & Markdown](https://m365.cloud.microsoft/chat/?titleId=T_24e32efa-32ba-1462-2a58-03127fa5ff11&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
+> 🤖 **Copilot-Agent:** [M231 T02a Git](https://m365.cloud.microsoft/chat/?titleId=T_24e32efa-32ba-1462-2a58-03127fa5ff11&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
 
 Git verwaltet Änderungen an Dateien in mehreren Schichten. Das folgende Diagramm zeigt den grundlegenden Arbeitsablauf:
 
@@ -112,6 +112,8 @@ flowchart LR
 ---
 
 ### Markdown-Grundlagen
+
+> 🤖 **Copilot-Agent:** [M231 T02b Markdown & Mermaid](https://m365.cloud.microsoft/chat/?titleId=T_ad075e69-ad34-2198-8de0-209a2b41962a&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
 
 Markdown ist eine leichtgewichtige Auszeichnungssprache, die in Git-Repositories, Wikis und vielen weiteren Systemen verwendet wird. Die Syntax ist bewusst einfach und lesbar.
 
@@ -356,7 +358,7 @@ Einzelne Abgaben werden am Schluss im Plenum besprochen.
 
 ---
 
-**Zum Nachlernen (LB1):** 🤖 Copilot-Agent [M231 T02b Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen. Er führt Schritt für Schritt durch revDSG und DSGVO.
+**Zum Nachlernen (LB1):** 🤖 Copilot-Agent [M231 T02c Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen. Er führt Schritt für Schritt durch revDSG und DSGVO.
 
 *(Die Themen "Datenschutz vs. Datensicherheit" und die Transferaufgabe zum Auskunftsbegehren folgen an Tag 3.)*
 
