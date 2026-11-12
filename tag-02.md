@@ -214,23 +214,10 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 
 <details>
   <summary>
-	Block: Datenschutzrecht – Agent, Gruppenrecherche & Recherche (~115')
+	Block: Datenschutzrecht – Gruppenrecherche & Einzelrecherche (~85')
   </summary>
 
 ## Datenschutzrecht: revDSG und DSGVO
-
-> 🤖 **Copilot-Agent:** [M231 T02b Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
-
-> Sozialform: Einzelarbeit
-> Dauer: ~30min
-> Abgabe: keine — der Agent meldet «FERTIG»
-
-Der Agent führt Sie durch das Schweizer Datenschutzgesetz (revDSG) und die DSGVO: Grundsätze,
-besonders schützenswerte Personendaten, Betroffenenrechte und die Meldepflicht bei Datenpannen.
-Arbeiten Sie ihn durch, **bevor** Sie mit der Gruppenrecherche beginnen — ohne die Begriffe finden
-Sie im Gesetzestext wenig.
-
----
 
 ### Gruppenrecherche mit Präsentation
 
@@ -244,6 +231,9 @@ Jedes Team erhält eines der Themen A–D und präsentiert es der Klasse in **5 
 2. Prüfen Sie jede Aussage in der offiziellen Quelle und notieren Sie den **Artikel**.
 3. Bereiten Sie die Präsentation vor: die wichtigsten Punkte, ein eigenes Beispiel, zu jeder
    Kernaussage **Artikel und Link** auf die offizielle Quelle.
+
+Weicht der Text von der Quelle ab, gilt die Quelle. Sagen Sie das in der Präsentation.
+Präsentiert wird in der Reihenfolge A–D.
 
 **Offizielle Quellen:**
 
@@ -332,7 +322,7 @@ flowchart TD
 
 ---
 
-### Recherche: Datenpanne im Treuhandbüro
+### Einzelrecherche: Datenpanne im Treuhandbüro
 
 > Sozialform: Einzelarbeit
 > Dauer: ~35min
@@ -364,6 +354,10 @@ Gesetzestext, nicht die Aussage der KI.
 
 Einzelne Abgaben werden am Schluss im Plenum besprochen.
 
+---
+
+**Zum Nachlernen (LB1):** 🤖 Copilot-Agent [M231 T02b Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen. Er führt Schritt für Schritt durch revDSG und DSGVO.
+
 *(Die Themen "Datenschutz vs. Datensicherheit" und die Transferaufgabe zum Auskunftsbegehren folgen an Tag 3.)*
 
 </details>
@@ -371,64 +365,22 @@ Einzelne Abgaben werden am Schluss im Plenum besprochen.
 
 <details>
   <summary>
-	Block: Arbeit am Lernjournal (~75')
+	Block: Arbeit am Lernjournal
   </summary>
 
 ## Arbeit am Lernjournal
 
-Nach den Qualitäts-Tipps aus dem Git/Markdown-Block (gut vs. schwacher Eintrag) folgt nun betreute Arbeitszeit: Sie schreiben Ihre Lernjournal-Einträge zu Tag 1 und Tag 2, tauschen sich mit einer Partnerin/einem Partner aus und erhalten Feedback anhand der Kriterientabelle.
-
-> Sozialform: Einzelarbeit → Partnerarbeit → Plenum
-> Dauer: 75min (10min Repo-/Struktur-Check, 40min Schreibarbeit, 15min Peer-Feedback, 10min Abschlussreflexion)
+> Sozialform: Einzelarbeit
+> Dauer: restliche Zeit
 > Abgabe: Lernjournal-Einträge Tag 1 & Tag 2 im persönlichen Git-Repo committet
 
----
-
-### Repo- und Struktur-Check (10')
-
-> Sozialform: Einzelarbeit, Lehrperson im Rundgang
-> Dauer: 10min
-
-1. Öffnen Sie Ihr persönliches Lernjournal-Repository.
-2. Prüfen Sie: Ist die Struktur nachvollziehbar (z. B. eine Datei/ein Abschnitt pro Tag)? Ist die `mermaid-challenge.md` aus dem Vormittag committet?
-3. Die Lehrperson geht kurz durch die Reihen und beantwortet offene technische Fragen (Markdown, Git-Befehle).
-
----
-
-### Schreibarbeit (40')
-
-> Sozialform: Einzelarbeit
-> Dauer: 40min
-
-Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **Tag 2**. Orientieren Sie sich an den Qualitäts-Tipps von vorhin:
+Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **Tag 2**. Orientieren Sie sich an den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3»:
 
 - Konkrete Konzepte, Befehle und Beispiele statt vager Aussagen
 - Reflexion: Was war neu, überraschend oder schwierig – und warum?
 - Bezug zu Handlungszielen (HZ) herstellen, wo passend
 - Offene Punkte mit konkretem Plan und Zeitangabe festhalten
 
-Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Agent, Gruppenrecherche und Recherche).
-
----
-
-### Peer-Feedback (15')
-
-> Sozialform: Partnerarbeit
-> Dauer: 15min
-> Abgabe: mündliches Feedback an Partner:in
-
-Tauschen Sie Ihr Lernjournal (Bildschirm oder Link) mit einer Sitznachbarin / einem Sitznachbarn:
-1. Lesen Sie den Eintrag Ihres Gegenübers.
-2. Geben Sie anhand der Kriterientabelle (Konkretheit, Reflexion, Bezug zu HZ, Planung, Eigenständigkeit) mündlich Feedback: Was ist bereits stark? Was könnte vertieft werden?
-3. Notieren Sie sich selbst mindestens einen Verbesserungspunkt aus dem erhaltenen Feedback.
-
----
-
-### Abschlussreflexion (10')
-
-> Sozialform: Einzelarbeit → Plenum
-> Dauer: 10min
-
-Ergänzen Sie Ihren Eintrag um den Verbesserungspunkt aus dem Peer-Feedback. Im Plenum: Wer möchte eine besonders gelungene Formulierung oder einen Aha-Moment teilen?
+Nutzen Sie dazu die heutigen Themen: Git/Markdown (Mermaid-Challenge) und Datenschutzrecht (Gruppenrecherche mit Präsentation, Einzelrecherche «Datenpanne im Treuhandbüro»).
 
 </details>
