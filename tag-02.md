@@ -114,6 +114,8 @@ flowchart LR
 ### Markdown-Grundlagen
 
 > 🤖 **Copilot-Agent:** [M231 T02b Markdown & Mermaid](https://m365.cloud.microsoft/chat/?titleId=T_ad075e69-ad34-2198-8de0-209a2b41962a&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
+>
+> Neue Zeile im Copilot-Chat: **Shift+Enter**. Längere Quelltexte schreiben Sie im Editor Ihres Repos (Vorschau) oder in [mermaid.live](https://mermaid.live/) und fügen sie dann ein.
 
 Markdown ist eine leichtgewichtige Auszeichnungssprache, die in Git-Repositories, Wikis und vielen weiteren Systemen verwendet wird. Die Syntax ist bewusst einfach und lesbar.
 
