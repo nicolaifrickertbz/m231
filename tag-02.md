@@ -214,113 +214,55 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 
 <details>
   <summary>
-	Block: Datenschutzrecht – Gruppenpuzzle DSG & DSGVO (~45')
+	Block: Datenschutzrecht – Agent & Recherche (~65')
   </summary>
 
-## Gruppenpuzzle: Datenschutzrecht im Überblick
+## Datenschutzrecht: revDSG und DSGVO
 
 > 🤖 **Copilot-Agent:** [M231 T02b Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
 
-Dieses Thema wird im **Gruppenpuzzle** (Jigsaw-Methode) erarbeitet: Jede Klein­gruppe (Expertengruppe) erarbeitet zunächst nur *ein* Thema vertieft. Danach werden die Gruppen neu gemischt (Stammgruppen), sodass in jeder neuen Gruppe ein:e Expert:in pro Thema sitzt – diese erklären sich gegenseitig ihr Thema.
+> Sozialform: Einzelarbeit
+> Dauer: ~30min
+> Abgabe: keine — der Agent meldet «FERTIG»
 
-> Sozialform: Gruppenarbeit (Expertengruppen → Stammgruppen) → Plenum
-> Dauer: 45min (5min Einteilung, 12min Expertenphase, 18min Austauschphase, 10min Sicherung im Plenum)
-> Abgabe: mündliche Erklärung in der Stammgruppe + Kernpunkte im Plenum
-
-**Ablauf:**
-1. **Einteilung (5'):** Die Klasse wird in 4 Expertengruppen eingeteilt – je eine pro Thema (A–D unten).
-2. **Expertenphase (12'):** Jede Expertengruppe liest **nur ihren Abschnitt** und klärt gemeinsam: Was sind die 3–4 wichtigsten Punkte? Wie würde ich das in eigenen Worten erklären?
-3. **Austauschphase (18'):** Neue Stammgruppen bilden (aus jeder Expertengruppe eine Person). Reihum erklärt jede:r ihr Thema (~4' pro Person) – die anderen hören zu und dürfen Rückfragen stellen.
-4. **Sicherung (10', Plenum):** Offene Fragen klären, Kernpunkte/Merksätze gemeinsam festhalten.
+Der Agent führt Sie durch das Schweizer Datenschutzgesetz (revDSG) und die DSGVO: Grundsätze,
+besonders schützenswerte Personendaten, Betroffenenrechte und die Meldepflicht bei Datenpannen.
+Arbeiten Sie ihn durch, **bevor** Sie mit der Recherche beginnen — ohne die Begriffe finden Sie im
+Gesetzestext wenig.
 
 ---
 
-### Thema A (Expertengruppe A): Schweizer Datenschutzgesetz (revDSG) – Grundsätze
+### Recherche: Datenpanne im Treuhandbüro
 
-Das revidierte **Datenschutzgesetz (revDSG)** ist seit dem 1. September 2023 in Kraft.
+> Sozialform: Einzelarbeit
+> Dauer: ~35min
+> Abgabe: MS-Teams Assignment
 
-**Wichtigste Grundsätze:**
+**Ausgangslage:** Ein Treuhandbüro in Winterthur betreut rund 400 Kunden. Gestern hat es bemerkt,
+dass Unbekannte auf die Kundendatenbank zugegriffen haben. Darin stehen Namen, Adressen,
+AHV-Nummern und Steuerunterlagen. Ob die Daten kopiert wurden, ist noch unklar. Etwa 30 Kunden
+wohnen in Deutschland, das Büro betreut sie seit Jahren.
 
-| Grundsatz | Bedeutung |
-|---|---|
-| **Rechtmässigkeit** | Datenbearbeitung braucht eine Rechtsgrundlage oder Einwilligung |
-| **Verhältnismässigkeit** | Nur so viele Daten erheben wie nötig (Datensparsamkeit) |
-| **Zweckbindung** | Daten nur für den angegebenen Zweck verwenden |
-| **Richtigkeit** | Daten müssen korrekt und aktuell sein |
-| **Datensicherheit** | Angemessene technische und organisatorische Massnahmen |
-| **Transparenz** | Betroffene müssen informiert werden |
+Beantworten Sie die vier Fragen. Belegen Sie **jede Antwort mit dem Gesetzesartikel und einem Link
+auf die offizielle Quelle**. KI dürfen Sie beim Suchen nutzen. Was zählt, ist der Beleg im
+Gesetzestext, nicht die Aussage der KI.
 
----
+1. Gilt für diesen Fall das **revDSG**? Gilt die **DSGVO**? Begründen Sie beides.
+2. Muss das Büro die Panne **melden**? Wem, unter welcher Bedingung und in welcher Frist — nach
+   revDSG und nach DSGVO?
+3. Müssen die **Kunden informiert** werden? Unter welcher Bedingung — nach revDSG und nach DSGVO?
+4. Sind **Steuerunterlagen** besonders schützenswerte Personendaten im Sinne des revDSG? Was folgt
+   daraus für die Beurteilung des Risikos?
 
-### Thema B (Expertengruppe B): Besonders schützenswerte Personendaten
+**Pro Frage:** Antwort in 2–4 Sätzen · Artikel · Link.
 
-**Besonders schützenswerte Personendaten (Art. 5 revDSG):**
-- Religiöse, weltanschauliche, politische Ansichten
-- Gesundheit, Intimsphäre, Rassenzugehörigkeit
-- Massnahmen der sozialen Hilfe
-- Strafrechtliche Verfolgungen/Sanktionen
-- Biometrische und genetische Daten
+**Offizielle Quellen:**
 
-Für diese Datenkategorien gelten strengere Anforderungen (z. B. explizite Einwilligung, höheres Schutzniveau) als für gewöhnliche Personendaten.
+- revDSG (Datenschutzgesetz, SR 235.1): <https://www.fedlex.admin.ch/eli/cc/2022/491/de>
+- DSGVO: <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679>
+- EDÖB: <https://www.edoeb.admin.ch/de>
 
----
-
-### Thema C (Expertengruppe C): DSGVO-Betroffenenrechte & Vergleich DSG/DSGVO
-
-Die **DSGVO** gilt für alle Unternehmen, die Daten von EU-Bürgern bearbeiten – unabhängig vom Firmensitz.
-
-**Betroffenenrechte (Auswahl):**
-
-| Recht | Bedeutung |
-|---|---|
-| Auskunftsrecht | Ich kann fragen, welche Daten über mich gespeichert sind |
-| Recht auf Berichtigung | Falsche Daten müssen korrigiert werden |
-| Recht auf Löschung | „Recht auf Vergessenwerden" |
-| Recht auf Datenübertragbarkeit | Daten in maschinenlesbarem Format herausgeben |
-| Widerspruchsrecht | Gegen bestimmte Datenbearbeitungen widersprechen |
-
-**Vergleich DSG vs. DSGVO:**
-
-| Aspekt | revDSG (CH) | DSGVO (EU) |
-|---|---|---|
-| Geltungsbereich | Schweiz | EU / EWR |
-| In Kraft | 01.09.2023 | 25.05.2018 |
-| Bussgelder | bis CHF 250'000 (Privatpersonen) | bis € 20 Mio. oder 4% des weltweiten Umsatzes |
-| Datenschutzbeauftragter | empfohlen | Pflicht (ab best. Grösse) |
-| Auskunftsrecht | Ja | Ja |
-
----
-
-### Thema D (Expertengruppe D): Meldepflicht bei Datenpannen – der Prozess
-
-Wenn Personendaten unbefugt offenbart, gelöscht oder verändert werden, greift die Meldepflicht. Der folgende Prozess zeigt, was zu tun ist:
-
-```mermaid
-flowchart TD
-  A["Datenpanne erkannt\n(Verlust, Zugriff, Veröffentlichung\nvon Personendaten)"]
-  B{"Ist die Panne\nmeldepflichtig?\n(voraussichtlich hohes Risiko\nfür Betroffene)"}
-  C["Meldung an EDÖB\ninnert 72 Stunden\n(revDSG / DSGVO-Anforderung)"]
-  D["Betroffene Personen\nunverzüglich informieren\n(bei hohem Risiko)"]
-  E["Massnahmen ergreifen\nLücke schliessen, Schäden\nbegrenzen, Forensik"]
-  F["Intern dokumentieren\nVorfall aufzeichnen,\nkeine externe Meldung nötig"]
-  G["Nachkontrolle\nMassnahmen prüfen,\nWiederholung verhindern"]
-
-  A --> B
-  B -- "Ja" --> C
-  C --> D
-  D --> E
-  E --> G
-  B -- "Nein" --> F
-  F --> G
-```
-
-> **EDÖB** = Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (www.edoeb.admin.ch)
-
----
-
-### Sicherung im Plenum
-
-Zurück im Plenum: Klären Sie offene Fragen aus den Stammgruppen und halten Sie zu jedem der vier Themen (A–D) gemeinsam einen Merksatz fest.
+Einzelne Abgaben werden am Schluss im Plenum besprochen.
 
 *(Die Themen "Datenschutz vs. Datensicherheit" und die Transferaufgabe zum Auskunftsbegehren folgen an Tag 3.)*
 
@@ -365,7 +307,7 @@ Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **T
 - Bezug zu Handlungszielen (HZ) herstellen, wo passend
 - Offene Punkte mit konkretem Plan und Zeitangabe festhalten
 
-Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Gruppenpuzzle DSG/DSGVO).
+Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Agent und Recherche).
 
 ---
 
