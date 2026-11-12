@@ -214,7 +214,7 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 
 <details>
   <summary>
-	Block: Datenschutzrecht – Agent & Recherche (~65')
+	Block: Datenschutzrecht – Agent, Gruppenrecherche & Recherche (~115')
   </summary>
 
 ## Datenschutzrecht: revDSG und DSGVO
@@ -227,8 +227,108 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 
 Der Agent führt Sie durch das Schweizer Datenschutzgesetz (revDSG) und die DSGVO: Grundsätze,
 besonders schützenswerte Personendaten, Betroffenenrechte und die Meldepflicht bei Datenpannen.
-Arbeiten Sie ihn durch, **bevor** Sie mit der Recherche beginnen — ohne die Begriffe finden Sie im
-Gesetzestext wenig.
+Arbeiten Sie ihn durch, **bevor** Sie mit der Gruppenrecherche beginnen — ohne die Begriffe finden
+Sie im Gesetzestext wenig.
+
+---
+
+### Gruppenrecherche mit Präsentation
+
+> Sozialform: Gruppenarbeit (4 Teams à 4 Personen) → Plenum
+> Dauer: 25min Vorbereitung, 25min Präsentationen (5min pro Team)
+> Abgabe: keine
+
+Jedes Team erhält eines der Themen A–D und präsentiert es der Klasse in **5 Minuten**.
+
+1. Lesen Sie den Text zu Ihrem Thema. Er ist der Startpunkt, nicht die Quelle.
+2. Prüfen Sie jede Aussage in der offiziellen Quelle und notieren Sie den **Artikel**.
+3. Bereiten Sie die Präsentation vor: die wichtigsten Punkte, ein eigenes Beispiel, zu jeder
+   Kernaussage **Artikel und Link** auf die offizielle Quelle.
+
+**Offizielle Quellen:**
+
+- revDSG (Datenschutzgesetz, SR 235.1): <https://www.fedlex.admin.ch/eli/cc/2022/491/de>
+- DSGVO: <https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679>
+- EDÖB: <https://www.edoeb.admin.ch/de>
+
+#### Thema A: Schweizer Datenschutzgesetz (revDSG) – Grundsätze
+
+Das revidierte **Datenschutzgesetz (revDSG)** ist seit dem 1. September 2023 in Kraft.
+
+| Grundsatz | Bedeutung |
+|---|---|
+| **Rechtmässigkeit** | Datenbearbeitung braucht eine Rechtsgrundlage oder Einwilligung |
+| **Verhältnismässigkeit** | Nur so viele Daten erheben wie nötig (Datensparsamkeit) |
+| **Zweckbindung** | Daten nur für den angegebenen Zweck verwenden |
+| **Richtigkeit** | Daten müssen korrekt und aktuell sein |
+| **Datensicherheit** | Angemessene technische und organisatorische Massnahmen |
+| **Transparenz** | Betroffene müssen informiert werden |
+
+#### Thema B: Besonders schützenswerte Personendaten
+
+**Besonders schützenswerte Personendaten (Art. 5 lit. c revDSG):**
+
+- Religiöse, weltanschauliche, politische oder gewerkschaftliche Ansichten oder Tätigkeiten
+- Gesundheit, Intimsphäre, Zugehörigkeit zu einer Rasse oder Ethnie
+- Genetische Daten
+- Biometrische Daten, die eine Person eindeutig identifizieren
+- Daten über verwaltungs- und strafrechtliche Verfolgungen oder Sanktionen
+- Daten über Massnahmen der sozialen Hilfe
+
+Für diese Datenkategorien gelten strengere Anforderungen (z. B. ausdrückliche Einwilligung,
+höheres Schutzniveau) als für gewöhnliche Personendaten.
+
+#### Thema C: DSGVO-Betroffenenrechte & Vergleich revDSG/DSGVO
+
+Die **DSGVO** gilt auch für Unternehmen ausserhalb der EU, wenn sie **Personen in der EU** Waren oder
+Dienstleistungen anbieten oder deren Verhalten beobachten (Marktortprinzip). Massgebend ist, wo sich
+die Person befindet, nicht ihre Staatsangehörigkeit.
+
+**Betroffenenrechte (Auswahl):**
+
+| Recht | Bedeutung |
+|---|---|
+| Auskunftsrecht | Ich kann fragen, welche Daten über mich gespeichert sind |
+| Recht auf Berichtigung | Falsche Daten müssen korrigiert werden |
+| Recht auf Löschung | «Recht auf Vergessenwerden» |
+| Recht auf Datenübertragbarkeit | Daten in maschinenlesbarem Format herausgeben |
+| Widerspruchsrecht | Gegen bestimmte Datenbearbeitungen widersprechen |
+
+**Vergleich revDSG vs. DSGVO:**
+
+| Aspekt | revDSG (CH) | DSGVO (EU) |
+|---|---|---|
+| Geltungsbereich | Schweiz | EU / EWR |
+| In Kraft | 01.09.2023 | 25.05.2018 |
+| Bussen | bis CHF 250'000, gegen die verantwortliche natürliche Person | bis € 20 Mio. oder 4 % des weltweiten Jahresumsatzes, gegen das Unternehmen |
+| Datenschutzberater/-beauftragter | für private Unternehmen freiwillig (Datenschutzberater) | Pflicht für Behörden und für Unternehmen, deren Kerntätigkeit umfangreiche Überwachung oder die umfangreiche Bearbeitung besonders sensibler Daten ist |
+| Auskunftsrecht | Ja | Ja |
+
+#### Thema D: Meldepflicht bei Datenpannen – der Prozess
+
+Wenn Personendaten unbefugt offenbart, verändert, gelöscht werden oder verloren gehen, liegt eine
+Verletzung der Datensicherheit vor. Der folgende Prozess zeigt, was zu tun ist:
+
+```mermaid
+flowchart TD
+  A["Datenpanne erkannt\n(Verlust, Zugriff, Veröffentlichung\nvon Personendaten)"]
+  B{"Ist die Panne\nmeldepflichtig?\nrevDSG: voraussichtlich hohes Risiko\nDSGVO: ausser voraussichtlich kein Risiko"}
+  C["Meldung\nrevDSG: an den EDÖB so rasch als möglich\nDSGVO: an die Aufsichtsbehörde\nmöglichst innert 72 Stunden"]
+  D["Betroffene informieren\nrevDSG: wenn zu ihrem Schutz erforderlich\noder vom EDÖB verlangt\nDSGVO: bei voraussichtlich hohem Risiko"]
+  E["Massnahmen ergreifen\nLücke schliessen, Schäden\nbegrenzen, Forensik"]
+  F["Intern dokumentieren\nVorfall aufzeichnen,\nkeine externe Meldung nötig"]
+  G["Nachkontrolle\nMassnahmen prüfen,\nWiederholung verhindern"]
+
+  A --> B
+  B -- "Ja" --> C
+  C --> D
+  D --> E
+  E --> G
+  B -- "Nein" --> F
+  F --> G
+```
+
+> **EDÖB** = Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (www.edoeb.admin.ch)
 
 ---
 
@@ -307,7 +407,7 @@ Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **T
 - Bezug zu Handlungszielen (HZ) herstellen, wo passend
 - Offene Punkte mit konkretem Plan und Zeitangabe festhalten
 
-Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Agent und Recherche).
+Nutzen Sie dazu insbesondere die heutigen Themen: Git/Markdown, Datenschutzrecht (Agent, Gruppenrecherche und Recherche).
 
 ---
 
