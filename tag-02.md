@@ -72,7 +72,7 @@ Erlaubt: Erklärungen einfordern, Rückfragen stellen, Prompt-Übungen/Testdaten
 
 <details>
   <summary>
-	Block: Einführung Git/Markdown & LB3 (~35')
+	Block: Einführung Git/Markdown & LB3 (~50')
   </summary>
 
 → **[LB3 – Auftrag & Bewertungsraster](lbs/lb3/lb3-auftrag.md)**
@@ -108,35 +108,6 @@ flowchart LR
 | `git push` | Lokale Commits ins Remote-Repo hochladen |
 | `git pull` | Änderungen vom Remote-Repo herunterladen |
 | `git log` | Commit-Historie anzeigen |
-
----
-
-### Mermaid-Challenge: Spaghetti kochen als Flowchart
-
-> Sozialform: Gruppenarbeit (3–4 Personen)
-> Dauer: 10min
-> Abgabe: Link zur Datei, Vorstellung/Prämierung im Verlauf des Tages
-
-Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und der Lehrperson freigegeben. Sie haben oben im Git-Workflow-Diagramm gesehen, wie ein Ablauf als Mermaid-Flowchart dargestellt wird – jetzt sind Sie dran!
-
-**Mermaid-Flowchart – die wichtigsten Elemente:**
-
-| Element | Syntax | Bedeutung |
-|---|---|---|
-| Diagrammblock | ` ```mermaid ` … ` ``` ` | Kennzeichnet den Diagrammcode |
-| Richtung | `flowchart TD` / `flowchart LR` | Top-Down bzw. Left-Right |
-| Schritt (Rechteck) | `A["Text"]` | normaler Prozessschritt |
-| Entscheidung (Raute) | `B{"Frage?"}` | Verzweigung |
-| Pfeil | `A --> B` | Ablauf |
-| Beschrifteter Pfeil | `A -- "Ja" --> C` | Ablauf mit Bedingung |
-
-1. Bilden Sie eine Gruppe von 3–4 Personen (nach Sitzordnung).
-2. Modellieren Sie gemeinsam den Prozess **«Spaghetti kochen»** als Flowchart – mit **mindestens einer Entscheidung/Verzweigung** (z. B. «Wasser am Kochen?», «Spaghetti al dente?», «Sauce fertig?»). Alle Gruppen bearbeiten denselben Prozess – das macht die Diagramme direkt vergleichbar.
-3. Entwerft und prüft euer Diagramm im Online-Editor **[mermaid.live](https://mermaid.live/)** – dort seht ihr die Grafik live, ohne committen zu müssen.
-4. Legt in **eurem persönlichen Git-Repository** (aus Tag 1) eine neue Datei `mermaid-challenge.md` an und fügt den fertigen Code aus mermaid.live ein – am schnellsten direkt über «Add file» im Browser auf GitHub/GitLab, ohne lokales Klonen.
-5. Committet die Datei und gebt den Link im Klassen-Chat/MS Teams ab.
-
-> 🏆 **Prämierung:** Die Lehrperson wählt das kreativste bzw. klarste Diagramm – die Gewinner-Gruppe erhält einen kleinen Preis. Auflösung im Verlauf des Tages.
 
 ---
 
@@ -208,6 +179,35 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 | **Bezug zu Handlungszielen** | Verknüpft Inhalt mit HZ (z. B. «Das betrifft HZ 2.3: MFA») | Kein Bezug zu Lernzielen |
 | **Planung** | Konkreter Plan für offene Punkte mit Zeitangabe | Keine oder vage Planung |
 | **Eigenständigkeit** | Eigene Gedanken, Fragen, kritische Überlegungen | Zusammenfassung aus Unterlagen |
+
+---
+
+### Mermaid-Challenge: Spaghetti kochen als Flowchart
+
+> Sozialform: Gruppenarbeit (3–4 Personen)
+> Dauer: 20min
+> Abgabe: Link zur Datei, Vorstellung/Prämierung im Verlauf des Tages
+
+Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und der Lehrperson freigegeben. Sie haben oben im Git-Workflow-Diagramm gesehen, wie ein Ablauf als Mermaid-Flowchart dargestellt wird – jetzt sind Sie dran!
+
+**Mermaid-Flowchart – die wichtigsten Elemente:**
+
+| Element | Syntax | Bedeutung |
+|---|---|---|
+| Diagrammblock | ` ```mermaid ` … ` ``` ` | Kennzeichnet den Diagrammcode |
+| Richtung | `flowchart TD` / `flowchart LR` | Top-Down bzw. Left-Right |
+| Schritt (Rechteck) | `A["Text"]` | normaler Prozessschritt |
+| Entscheidung (Raute) | `B{"Frage?"}` | Verzweigung |
+| Pfeil | `A --> B` | Ablauf |
+| Beschrifteter Pfeil | `A -- "Ja" --> C` | Ablauf mit Bedingung |
+
+1. Bilden Sie eine Gruppe von 3–4 Personen (nach Sitzordnung).
+2. Modellieren Sie gemeinsam den Prozess **«Spaghetti kochen»** als Flowchart – mit **mindestens einer Entscheidung/Verzweigung** (z. B. «Wasser am Kochen?», «Spaghetti al dente?», «Sauce fertig?»). Alle Gruppen bearbeiten denselben Prozess – das macht die Diagramme direkt vergleichbar.
+3. Entwerft und prüft euer Diagramm im Online-Editor **[mermaid.live](https://mermaid.live/)** – dort seht ihr die Grafik live, ohne committen zu müssen.
+4. Legt in **eurem persönlichen Git-Repository** (aus Tag 1) eine neue Datei `mermaid-challenge.md` an und fügt den fertigen Code aus mermaid.live ein – am schnellsten direkt über «Add file» im Browser auf GitHub/GitLab, ohne lokales Klonen.
+5. Committet die Datei und gebt den Link im Klassen-Chat/MS Teams ab.
+
+> 🏆 **Prämierung:** Die Lehrperson wählt das kreativste bzw. klarste Diagramm – die Gewinner-Gruppe erhält einen kleinen Preis. Auflösung im Verlauf des Tages.
 
 </details>
 
