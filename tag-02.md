@@ -113,8 +113,6 @@ flowchart LR
 
 ### Markdown-Grundlagen
 
-> 📘 **Tutorial:** [CommonMark – 10 Minute Markdown Tutorial](https://commonmark.org/help/tutorial/) (Englisch) — im Browser durcharbeiten (~10min). Kurzreferenz auf einer Seite: [commonmark.org/help](https://commonmark.org/help/). Tabellen: Tabelle unten. Zum Nachschlagen: [GitHub Docs – Grundlegende Schreib- und Formatierungssyntax](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
 Markdown ist eine leichtgewichtige Auszeichnungssprache, die in Git-Repositories, Wikis und vielen weiteren Systemen verwendet wird. Die Syntax ist bewusst einfach und lesbar.
 
 **Wichtigste Elemente:**
