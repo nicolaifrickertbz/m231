@@ -338,7 +338,7 @@ flowchart TD
 
 ## Arbeit am Lernjournal
 
-Nach den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3» (gut vs. schwacher Eintrag) folgt nun betreute Arbeitszeit: Sie schreiben Ihre Lernjournal-Einträge zu Tag 1 und Tag 2, tauschen sich mit einer Partnerin/einem Partner aus und erhalten Feedback anhand der Kriterientabelle.
+Nach den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3» (gut vs. schwacher Eintrag) folgt nun betreute Arbeitszeit: Sie schreiben/überarbeiten Ihre Lernjournal-Einträge zu Tag 1 und Tag 2, tauschen sich mit einer Partnerin/einem Partner aus und erhalten Feedback anhand der Kriterientabelle.
 
 > Sozialform: Einzelarbeit → Partnerarbeit → Plenum
 > Dauer: ~50min, restliche Zeit (5min Repo-/Struktur-Check, 30min Schreibarbeit, 10min Peer-Feedback, 5min Abschlussreflexion)
