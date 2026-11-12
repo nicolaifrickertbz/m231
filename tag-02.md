@@ -113,9 +113,7 @@ flowchart LR
 
 ### Markdown-Grundlagen
 
-> 🤖 **Copilot-Agent:** [M231 T02b Markdown & Mermaid](https://m365.cloud.microsoft/chat/?titleId=T_ad075e69-ad34-2198-8de0-209a2b41962a&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen.
->
-> Neue Zeile im Copilot-Chat: **Shift+Enter**. Längere Quelltexte schreiben Sie im Editor Ihres Repos (Vorschau) oder in [mermaid.live](https://mermaid.live/) und fügen sie dann ein.
+> 📘 **Tutorial:** [markdowntutorial.com/de](https://www.markdowntutorial.com/de/) — Lektionen 1–7 im Browser durcharbeiten (~15min). Tabellen und Codeblöcke: Tabelle unten. Zum Nachschlagen: [GitHub Docs – Grundlegende Schreib- und Formatierungssyntax](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 Markdown ist eine leichtgewichtige Auszeichnungssprache, die in Git-Repositories, Wikis und vielen weiteren Systemen verwendet wird. Die Syntax ist bewusst einfach und lesbar.
 
@@ -193,6 +191,8 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 > Abgabe: Link zur Datei, Vorstellung/Prämierung im Verlauf des Tages
 
 Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und der Lehrperson freigegeben. Sie haben oben im Git-Workflow-Diagramm gesehen, wie ein Ablauf als Mermaid-Flowchart dargestellt wird – jetzt sind Sie dran!
+
+> 📘 **Tutorial:** [Mermaid – Flowchart-Syntax](https://mermaid.js.org/syntax/flowchart.html) (offizielle Dokumentation, Englisch) — die Abschnitte zu Richtung, Formen und Pfeilen genügen; jedes Beispiel lässt sich mit «Run» ausprobieren. Auf Deutsch: [GitHub Docs – Erstellen von Diagrammen](https://docs.github.com/de/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
 
 **Mermaid-Flowchart – die wichtigsten Elemente:**
 
