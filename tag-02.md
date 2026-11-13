@@ -72,7 +72,7 @@ Erlaubt: Erklärungen einfordern, Rückfragen stellen, Prompt-Übungen/Testdaten
 
 <details>
   <summary>
-	Block: Einführung Git/Markdown & LB3 (~50')
+	Block: Einführung Git/Markdown & LB3 (~55')
   </summary>
 
 → **[LB3 – Auftrag & Bewertungsraster](lbs/lb3/lb3-auftrag.md)**
@@ -216,7 +216,7 @@ Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und 
 
 <details>
   <summary>
-	Block: Datenschutzrecht – Gruppenrecherche & Präsentation (~50')
+	Block: Datenschutzrecht – Gruppenrecherche & Präsentation (~55')
   </summary>
 
 ## Datenschutzrecht: revDSG und DSGVO
@@ -224,14 +224,16 @@ Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und 
 ### Gruppenrecherche mit Präsentation
 
 > Sozialform: Gruppenarbeit (4 Teams à 4 Personen) → Plenum
-> Dauer: 25min Vorbereitung, 25min Präsentationen (5min pro Team)
+> Dauer: 30min Vorbereitung, 25min Präsentationen (5min pro Team)
 > Abgabe: keine
 
 Jedes Team erhält eines der Themen A–D und präsentiert es der Klasse in **5 Minuten**.
 
-1. Lesen Sie den Text zu Ihrem Thema. Er ist der Startpunkt, nicht die Quelle.
-2. Prüfen Sie jede Aussage in der offiziellen Quelle und notieren Sie den **Artikel**.
-3. Bereiten Sie die Präsentation vor: die wichtigsten Punkte, ein eigenes Beispiel, zu jeder
+1. Lesen Sie den Text zu Ihrem Thema.
+2. Informieren Sie sich über das Thema. Der Text nennt nur Stichworte; die **Leitfragen** unter
+   Ihrem Thema zeigen, was in die Präsentation gehört. Womit Sie sich informieren, entscheiden Sie.
+3. Prüfen Sie jede Aussage in der offiziellen Quelle und notieren Sie den **Artikel**.
+4. Bereiten Sie die Präsentation vor: die wichtigsten Punkte, ein eigenes Beispiel, zu jeder
    Kernaussage **Artikel und Link** auf die offizielle Quelle.
 
 Weicht der Text von der Quelle ab, gilt die Quelle. Sagen Sie das in der Präsentation.
@@ -256,6 +258,13 @@ Das revidierte **Datenschutzgesetz (revDSG)** ist seit dem 1. September 2023 in 
 | **Datensicherheit** | Angemessene technische und organisatorische Massnahmen |
 | **Transparenz** | Betroffene müssen informiert werden |
 
+**Leitfragen:**
+
+- In welchem Artikel stehen die Grundsätze, und stimmen sie mit der Tabelle überein?
+- Was bedeuten Verhältnismässigkeit und Zweckbindung, wenn Ihr Lehrbetrieb ein Kontaktformular
+  für Kundinnen und Kunden erstellt?
+- Braucht ein privates Unternehmen für jede Datenbearbeitung eine Einwilligung?
+
 #### Thema B: Besonders schützenswerte Personendaten
 
 **Besonders schützenswerte Personendaten (Art. 5 lit. c revDSG):**
@@ -269,6 +278,12 @@ Das revidierte **Datenschutzgesetz (revDSG)** ist seit dem 1. September 2023 in 
 
 Für diese Datenkategorien gelten strengere Anforderungen (z. B. ausdrückliche Einwilligung,
 höheres Schutzniveau) als für gewöhnliche Personendaten.
+
+**Leitfragen:**
+
+- Was gilt für besonders schützenswerte Personendaten anders als für gewöhnliche Personendaten?
+- Welche Daten in Ihrem Lehrbetrieb gehören dazu, zum Beispiel in der Personalabteilung?
+- Wann muss eine Einwilligung ausdrücklich sein?
 
 #### Thema C: DSGVO-Betroffenenrechte & Vergleich revDSG/DSGVO
 
@@ -296,6 +311,12 @@ die Person befindet, nicht ihre Staatsangehörigkeit.
 | Datenschutzberater/-beauftragter | für private Unternehmen freiwillig (Datenschutzberater) | Pflicht für Behörden und für Unternehmen, deren Kerntätigkeit umfangreiche Überwachung oder die umfangreiche Bearbeitung besonders sensibler Daten ist |
 | Auskunftsrecht | Ja | Ja |
 
+**Leitfragen:**
+
+- Wann gilt die DSGVO für ein Unternehmen in der Schweiz? Nennen Sie ein Beispiel.
+- Welche der Betroffenenrechte gibt es auch im revDSG, und in welchem Artikel?
+- Wen trifft eine Busse nach revDSG, wen nach DSGVO, und was bedeutet das für Mitarbeitende?
+
 #### Thema D: Meldepflicht bei Datenpannen – der Prozess
 
 Wenn Personendaten unbefugt offenbart, verändert, gelöscht werden oder verloren gehen, liegt eine
@@ -322,6 +343,12 @@ flowchart TD
 
 > **EDÖB** = Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (www.edoeb.admin.ch)
 
+**Leitfragen:**
+
+- Wann ist eine Datenpanne nach revDSG meldepflichtig, wann nach DSGVO?
+- Wem muss gemeldet werden, und bis wann?
+- Wann müssen die betroffenen Personen selbst informiert werden?
+
 ---
 
 **Zum Nachlernen (LB1):** 🤖 Copilot-Agent [M231 T02c Datenschutzrecht](https://m365.cloud.microsoft/chat/?titleId=T_140832fa-9dd9-a241-e6ca-c5b466e7a0a3&source=embedded-builder) — mit dem TBZ-Konto öffnen und **Start** tippen. Er führt Schritt für Schritt durch revDSG und DSGVO.
@@ -333,7 +360,7 @@ flowchart TD
 
 <details>
   <summary>
-	Block: Arbeit am Lernjournal (~50')
+	Block: Arbeit am Lernjournal (~45')
   </summary>
 
 ## Arbeit am Lernjournal
@@ -341,7 +368,7 @@ flowchart TD
 Nach den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3» (gut vs. schwacher Eintrag) folgt nun betreute Arbeitszeit: Sie schreiben/überarbeiten Ihre Lernjournal-Einträge zu Tag 1 und Tag 2, tauschen sich mit einer Partnerin/einem Partner aus und erhalten Feedback anhand der Kriterientabelle.
 
 > Sozialform: Einzelarbeit → Partnerarbeit → Plenum
-> Dauer: ~50min, restliche Zeit (5min Repo-/Struktur-Check, 30min Schreibarbeit, 10min Peer-Feedback, 5min Abschlussreflexion)
+> Dauer: ~45min, restliche Zeit (5min Repo-/Struktur-Check, 25min Schreibarbeit, 10min Peer-Feedback, 5min Abschlussreflexion)
 > Abgabe: Lernjournal-Einträge Tag 1 & Tag 2 im persönlichen Git-Repo committet
 
 ---
@@ -357,10 +384,10 @@ Nach den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3» (gut 
 
 ---
 
-### Schreibarbeit (30')
+### Schreibarbeit (25')
 
 > Sozialform: Einzelarbeit
-> Dauer: 30min
+> Dauer: 25min
 
 Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **Tag 2**. Orientieren Sie sich an den Qualitäts-Tipps von vorhin:
 
