@@ -189,13 +189,13 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 
 <details>
   <summary>
-	Block: Mermaid-Challenge – Flowchart «Spaghetti kochen» (~20')
+	Block: Mermaid-Challenge – Flowchart «Spaghetti kochen» (~25')
   </summary>
 
 ### Mermaid-Challenge: Spaghetti kochen als Flowchart
 
 > Sozialform: kurzer Input im Plenum → Gruppenarbeit (3–4 Personen)
-> Dauer: 20min (5min Input, 15min Gruppenarbeit)
+> Dauer: 25min (5min Input, 20min Gruppenarbeit)
 > Abgabe: Link zur Datei, Vorstellung/Prämierung im Verlauf des Tages
 
 Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und der Lehrperson freigegeben. Sie haben oben im Git-Workflow-Diagramm gesehen, wie ein Ablauf als Mermaid-Flowchart dargestellt wird – jetzt sind Sie dran!
@@ -370,7 +370,7 @@ flowchart TD
 
 <details>
   <summary>
-	Block: Arbeit am Lernjournal (~45')
+	Block: Arbeit am Lernjournal (~40')
   </summary>
 
 ## Arbeit am Lernjournal
@@ -378,7 +378,7 @@ flowchart TD
 Nach den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3» (gut vs. schwacher Eintrag) folgt nun betreute Arbeitszeit: Sie schreiben/überarbeiten Ihre Lernjournal-Einträge zu Tag 1 und Tag 2, tauschen sich mit einer Partnerin/einem Partner aus und erhalten Feedback anhand der Kriterientabelle.
 
 > Sozialform: Einzelarbeit → Partnerarbeit → Plenum
-> Dauer: ~45min, restliche Zeit (5min Repo-/Struktur-Check, 25min Schreibarbeit, 10min Peer-Feedback, 5min Abschlussreflexion)
+> Dauer: ~40min, restliche Zeit (5min Repo-/Struktur-Check, 20min Schreibarbeit, 10min Peer-Feedback, 5min Abschlussreflexion)
 > Abgabe: Lernjournal-Einträge Tag 1 & Tag 2 im persönlichen Git-Repo committet
 
 ---
@@ -394,10 +394,10 @@ Nach den Qualitäts-Tipps aus dem Block «Einführung Git/Markdown & LB3» (gut 
 
 ---
 
-### Schreibarbeit (25')
+### Schreibarbeit (20')
 
 > Sozialform: Einzelarbeit
-> Dauer: 25min
+> Dauer: 20min
 
 Schreiben oder überarbeiten Sie Ihre Lernjournal-Einträge zu **Tag 1** und **Tag 2**. Orientieren Sie sich an den Qualitäts-Tipps von vorhin:
 
