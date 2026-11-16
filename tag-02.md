@@ -72,8 +72,12 @@ Erlaubt: Erklärungen einfordern, Rückfragen stellen, Prompt-Übungen/Testdaten
 
 <details>
   <summary>
-	Block: Einführung Git/Markdown & LB3 (~55')
+	Block: Einführung Git/Markdown & LB3 (~35')
   </summary>
+
+> Sozialform: Einzelarbeit
+> Dauer: 35min
+> Abgabe: keine
 
 → **[LB3 – Auftrag & Bewertungsraster](lbs/lb3/lb3-auftrag.md)**
 
@@ -180,12 +184,18 @@ Das Lernjournal ist ein zentrales Bewertungskriterium bei LB3 (8 von 32 Punkten)
 | **Planung** | Konkreter Plan für offene Punkte mit Zeitangabe | Keine oder vage Planung |
 | **Eigenständigkeit** | Eigene Gedanken, Fragen, kritische Überlegungen | Zusammenfassung aus Unterlagen |
 
----
+</details>
+
+
+<details>
+  <summary>
+	Block: Mermaid-Challenge – Flowchart «Spaghetti kochen» (~20')
+  </summary>
 
 ### Mermaid-Challenge: Spaghetti kochen als Flowchart
 
-> Sozialform: Gruppenarbeit (3–4 Personen)
-> Dauer: 20min
+> Sozialform: kurzer Input im Plenum → Gruppenarbeit (3–4 Personen)
+> Dauer: 20min (5min Input, 15min Gruppenarbeit)
 > Abgabe: Link zur Datei, Vorstellung/Prämierung im Verlauf des Tages
 
 Das Git-Repository haben Sie bereits an Tag 1 für Ihr Lernjournal erstellt und der Lehrperson freigegeben. Sie haben oben im Git-Workflow-Diagramm gesehen, wie ein Ablauf als Mermaid-Flowchart dargestellt wird – jetzt sind Sie dran!
