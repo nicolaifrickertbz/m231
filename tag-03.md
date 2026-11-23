@@ -74,7 +74,7 @@ flowchart LR
 | **Ziel** | Persönlichkeitsrechte schützen | Verfügbarkeit, Integrität, Vertraulichkeit sicherstellen |
 | **Regelung durch** | Gesetze (DSG, DSGVO) | Technische & organisatorische Massnahmen |
 | **Beispiel** | Keine Weitergabe von Kundendaten ohne Einwilligung | Datenverschlüsselung, Backup, Zugriffsschutz |
-| **Verantwortlich** | Datenschutzbeauftragter, alle Mitarbeitenden | IT-Abteilung, Systemadministratoren |
+| **Verantwortlich** | Datenschutzberater (revDSG, für Private freiwillig) bzw. Datenschutzbeauftragter (DSGVO), alle Mitarbeitenden | IT-Abteilung, Systemadministratoren |
 
 > **Merksatz:** Datensicherheit ist eine *Voraussetzung* für Datenschutz. Ohne sichere Systeme kann Datenschutz nicht gewährleistet werden.
 
@@ -87,7 +87,7 @@ flowchart LR
   DP["Datenpanne\nz.B. Hackerangriff\nauf Kundendatenbank"]
   DSI["Datensicherheit\nverletzt:\n- Vertraulichkeit gebrochen\n- Integrität gefährdet\n- Verfügbarkeit beeinträchtigt"]
   DSC["Datenschutz\nverletzt:\n- Personendaten unbefugt\n  offenbart\n- Betroffene geschädigt\n- Meldepflicht ausgelöst"]
-  F["Folgen:\n- Bussgelder (bis 4% Umsatz)\n- Reputationsschäden\n- Haftungsklagen\n- Meldepflicht (72h)"]
+  F["Folgen:\n- Bussen\n  revDSG: bis CHF 250'000,\n  gegen die verantwortliche Person\n  DSGVO: bis 20 Mio. EUR oder 4% Umsatz,\n  gegen das Unternehmen\n- Reputationsschäden\n- Haftungsklagen\n- Meldepflicht\n  revDSG: so rasch als möglich\n  DSGVO: möglichst innert 72h"]
 
   DP --> DSI
   DP --> DSC
@@ -170,15 +170,24 @@ Die Schulverwaltung verwendet dieselbe Software seit 15 Jahren, ohne Updates ein
 
 ### Transferaufgabe: Auskunftsbegehren (LB3-Vorbereitung)
 
-> Sozialform: Einzelarbeit
-> Dauer: 10min
+> Sozialform: Einzelarbeit → Partnerarbeit
+> Dauer: 10min + 5min
 > Abgabe: im Lernjournal festhalten
 
 Das Auskunftsbegehren ist ein Formular, mit dem Sie von einem Unternehmen Auskunft verlangen können, welche Daten es über Sie gespeichert hat.
 
+**Allein (10min):**
+
 1. Suchen Sie online nach «Auskunftsbegehren Muster Schweiz» (z. B. edöb.ch).
 2. Was muss ein Auskunftsbegehren beinhalten?
 3. An welches Unternehmen würden Sie es schicken – und warum?
+
+**Zu zweit (5min):**
+
+4. Vergleichen Sie Ihre Liste aus Punkt 2 mit der Ihrer Sitznachbarin / Ihres Sitznachbarn und prüfen Sie beide Listen am gefundenen Muster: Was fehlt? Ergänzen Sie es.
+5. Nennen Sie sich gegenseitig in einem Satz das Unternehmen und den Grund.
+
+Halten Sie das Ergebnis danach im Lernjournal fest.
 
 *(Das vollständige Ausfüllen und Versenden folgt als LB3-Kriterium Nr. 5 am Checkpoint Tag 7.)*
 
@@ -294,7 +303,7 @@ Im Unterricht nur kurz gestreift – dient als Nachschlagewerk fürs Lernjournal
 ### Transferaufgabe: Datenschutz-Check
 
 > Sozialform: Einzelarbeit
-> Dauer: 5min (Start im Unterricht, bei Bedarf zuhause fertigstellen)
+> Dauer: 5min
 > Abgabe: Lernjournal-Eintrag
 
 Prüfen Sie Ihren eigenen Browser:
