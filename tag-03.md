@@ -310,31 +310,3 @@ Prüfen Sie Ihren eigenen Browser:
 3. Welche Massnahme würden Sie als nächstes umsetzen – und warum?
 
 </details>
-
-
-<details>
-  <summary>
-	Block: KI-Werkstatt 2 – Faktencheck einer KI-Aussage (entfällt in dieser Durchführung)
-  </summary>
-
-## KI als Recherche-Einstieg – mit Faktencheck-Pflicht
-
-KI-Sprachmodelle können Rechtsthemen wie das Datenschutzrecht plausibel klingend, aber **inhaltlich falsch** darstellen (Halluzination). Gerade bei Gesetzestexten ist eine unabhängige Quellenprüfung Pflicht.
-
-> **Erinnerung an den Nutzungsrahmen:** KI darf hier als Recherche-Einstieg dienen – die Validierung gegen eine offizielle Quelle ersetzt sie nicht.
-
----
-
-### Transferaufgabe: DSGVO/revDSG-Aussage validieren (kompakt)
-
-> Sozialform: Partnerarbeit
-> Dauer: 10min
-> Abgabe: Plenum (Kurzrunde, ~5min)
-
-In einem Zug: Bitten Sie eine KI um eine konkrete Aussage zu einem der heutigen Themen, z. B.: „Nenne die gesetzliche Frist, innerhalb derer ein Unternehmen ein Auskunftsbegehren beantworten muss, und die Frist für die Meldung einer Datenpanne an den EDÖB." Prüfen Sie die Aussage direkt im Anschluss gegen die **offizielle Quelle** (edoeb.admin.ch bzw. Gesetzestext des revDSG): Stimmen Fristen, Paragraphen, Zuständigkeiten?
-
-Im Plenum: Kurze Diskussion – warum ist ein Faktencheck bei KI-Antworten zu Rechtsfragen besonders wichtig, welche Konsequenzen hätte eine falsche Frist im Berufsalltag?
-
-*(Optional, nicht bewertet: Halten Sie Ihr Ergebnis informell im Lernjournal fest.)*
-
-</details>
