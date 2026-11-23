@@ -36,19 +36,27 @@ flowchart TD
 
 ### Kurzübung: Welches CIA-Ziel ist betroffen?
 
-Ordnen Sie jede Situation dem passenden CIA-Ziel zu (Mehrfachnennung möglich).
-
-| Nr. | Situation | Betroffenes CIA-Ziel |
-|---|---|---|
-| 1 | Ein Ransomware-Angriff verschlüsselt alle Dateien eines Spitals. | |
-| 2 | Ein Praktikant liest heimlich Personalakten von Kolleg:innen. | |
-| 3 | Auf einer Webseite werden Preise durch eine Sicherheitslücke unbemerkt verändert. | |
-| 4 | Ein DDoS-Angriff legt einen Online-Shop für Stunden lahm. | |
-
 > Sozialform: Einzelarbeit → Plenum
 > Dauer: 10min
 
-Bearbeiten Sie die Tabelle zunächst allein. Im Plenum werden die Zuordnungen kurz besprochen und begründet.
+**Teil A:** Welche Schutzziele sind betroffen? Mehrfachnennung möglich. Begründen Sie jede Zuordnung in einem Satz.
+
+| Nr. | Situation | Betroffene Schutzziele | Begründung |
+|---|---|---|---|
+| 1 | Ransomware verschlüsselt die Daten eines Spitals. Die Angreifer drohen zusätzlich, die Daten zu veröffentlichen. | | |
+| 2 | Ein Angreifer ändert in der Patientendatenbank unbemerkt die Blutgruppen. | | |
+| 3 | Eine Mitarbeiterin schickt die Lohnliste versehentlich an alle Angestellten. | | |
+| 4 | Nach einem fehlerhaften Update ist der Checkout eines Online-Shops stundenlang nicht erreichbar. | | |
+
+**Teil B:** Welches Schutzziel ist hier am wichtigsten? Begründen Sie Ihre Wahl.
+
+| | Situation | Wichtigstes Schutzziel | Begründung |
+|---|---|---|---|
+| a | Notfallstation eines Spitals | | |
+| b | Überweisung im E-Banking | | |
+| c | Personalakten im Lohnbüro | | |
+
+Bearbeiten Sie beide Teile allein. Im Plenum werden die Zuordnungen besprochen.
 
 </details>
 
@@ -104,10 +112,10 @@ Ordnen Sie jede Situation einer Kategorie zu: **Datenschutz** / **Datensicherhei
 | Nr. | Situation | Ihre Einschätzung | Begründung |
 |---|---|---|---|
 | 1 | Ein Mitarbeiter notiert Passwörter auf einem Post-it am Monitor. | | |
-| 2 | Eine Firma gibt Mitarbeiterdaten ohne Einwilligung an Headhunter weiter. | | |
-| 3 | Ein Server wird nicht regelmässig gesichert (kein Backup). | | |
-| 4 | Eine App fragt beim Signup nach Geburtsdatum, braucht es aber nicht. | | |
-| 5 | Die Firewall eines Unternehmens ist falsch konfiguriert und lässt Angriffe durch. | | |
+| 2 | Eine Arztpraxis speichert Patientenakten unverschlüsselt in einer Cloud, ohne die Patientinnen und Patienten darüber zu informieren. | | |
+| 3 | Aus dem Netzwerk einer Firma werden Konstruktionspläne gestohlen. Personendaten sind keine darin. | | |
+| 4 | Eine App fragt beim Signup nach dem Geburtsdatum, braucht es aber nicht. | | |
+| 5 | Ein Restaurant veröffentlicht seine Menükarte auf der Webseite. | | |
 
 **Think:**
 > Sozialform: Einzelarbeit
@@ -120,6 +128,8 @@ Bearbeiten Sie die Tabelle zunächst allein und still – ohne sich mit anderen 
 > Dauer: 8min
 
 Vergleichen Sie Ihre Einschätzungen mit Ihrer Sitznachbarin / Ihrem Sitznachbarn. Wo sind Sie unterschiedlicher Meinung – und warum?
+
+Erfinden Sie danach zu zweit für jede der vier Kategorien (Datenschutz, Datensicherheit, Beides, Keines) ein eigenes Beispiel.
 
 **Share:**
 > Sozialform: Plenum
@@ -149,6 +159,8 @@ Ein Krankenhaus speichert Patientendaten unverschlüsselt auf einem freigegebene
 
 > Sozialform: Einzelarbeit – wenn Sie mit der Lernstrecke früher fertig sind
 
+Bestimmen Sie für jedes Szenario zusätzlich: Welches **CIA-Ziel** und welcher **Datenschutzgrundsatz** sind verletzt?
+
 **Szenario 1: Arztpraxis**
 Eine Arztpraxis speichert Patientenakten auf einem unverschlüsselten USB-Stick, der verloren geht.
 - *Datensicherheit*: Keine Verschlüsselung, kein Zugriffsschutz → technisches Versagen
@@ -169,7 +181,7 @@ Die Schulverwaltung verwendet dieselbe Software seit 15 Jahren, ohne Updates ein
 ### Transferaufgabe: Auskunftsbegehren (LB3-Vorbereitung)
 
 > Sozialform: Einzelarbeit → Partnerarbeit
-> Dauer: 10min + 5min
+> Dauer: 10min + 5min + 5min
 > Abgabe: im Lernjournal festhalten
 
 Das Auskunftsbegehren ist ein Formular, mit dem Sie von einem Unternehmen Auskunft verlangen können, welche Daten es über Sie gespeichert hat.
@@ -184,6 +196,13 @@ Das Auskunftsbegehren ist ein Formular, mit dem Sie von einem Unternehmen Auskun
 
 4. Vergleichen Sie Ihre Liste aus Punkt 2 mit der Ihrer Sitznachbarin / Ihres Sitznachbarn und prüfen Sie beide Listen am gefundenen Muster: Was fehlt? Ergänzen Sie es.
 5. Nennen Sie sich gegenseitig in einem Satz das Unternehmen und den Grund.
+
+**Was tun Sie, wenn …? (5min, zu zweit)**
+
+6. Beantworten Sie mit Hilfe der Seite [Auskunftsrecht des EDÖB](https://www.edoeb.admin.ch/de/auskunftsrecht):
+   - a) Das Unternehmen verlangt CHF 50 Bearbeitungsgebühr.
+   - b) Das Unternehmen will per E-Mail eine Kopie Ihres Passes.
+   - c) Nach drei Wochen haben Sie noch keine Antwort.
 
 Halten Sie das Ergebnis danach im Lernjournal fest.
 
@@ -301,12 +320,22 @@ Im Unterricht nur kurz gestreift – dient als Nachschlagewerk fürs Lernjournal
 ### Transferaufgabe: Datenschutz-Check
 
 > Sozialform: Einzelarbeit
-> Dauer: 5min
+> Dauer: 10min
 > Abgabe: Lernjournal-Eintrag
 
-Prüfen Sie Ihren eigenen Browser:
+**Teil 1 – Ihr Browser:**
 1. Testen Sie Ihren Browser-Fingerprint auf: https://coveryourtracks.eff.org
-2. Wie viele Tracker blockiert Ihr Browser?
+2. Welche **zwei Merkmale** machen Ihren Browser am ehesten erkennbar?
 3. Welche Massnahme würden Sie als nächstes umsetzen – und warum?
+
+**Teil 2 – Welches Werkzeug passt?** Begründen Sie jeweils.
+
+| | Situation | Werkzeug | Begründung |
+|---|---|---|---|
+| a | Eine Journalistin will mit einer Quelle kommunizieren, ohne dass jemand die Verbindung nachvollziehen kann. | | |
+| b | Sie machen im Hotel-WLAN E-Banking. | | |
+| c | Sie wollen weniger personalisierte Werbung sehen. | | |
+
+**Teil 3:** Widerlegen Sie mit zwei Argumenten: «Ich nutze ein VPN, also bin ich anonym.»
 
 </details>
