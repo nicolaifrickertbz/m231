@@ -2,7 +2,7 @@
 
 <details>
   <summary>
-	Block: CIA-Triade – Schutzziele der Informationssicherheit (~40')
+	Block: CIA-Triade – Schutzziele der Informationssicherheit (~30')
   </summary>
 
 ## Die CIA-Triade
@@ -55,7 +55,7 @@ Bearbeiten Sie die Tabelle zunächst allein. Im Plenum werden die Zuordnungen ku
 
 <details>
   <summary>
-	Block: Datenschutz vs. Datensicherheit (~45')
+	Block: Datenschutz vs. Datensicherheit (~35')
   </summary>
 
 ## Datenschutz und Datensicherheit – wo ist der Unterschied?
@@ -129,10 +129,9 @@ Auflösung im Plenum: Reihum wird jede Situation kurz besprochen.
 
 ---
 
-### Diskussionsaufgabe
+### Diskussionsaufgabe (Vertiefung)
 
-> Sozialform: Plenum
-> Dauer: 10min
+> Sozialform: Einzelarbeit – wenn Sie mit der Lernstrecke früher fertig sind
 
 Ein Krankenhaus speichert Patientendaten unverschlüsselt auf einem freigegebenen Netzlaufwerk.
 - Welches Prinzip wird verletzt – Datenschutz, Datensicherheit oder beides?
@@ -143,13 +142,12 @@ Ein Krankenhaus speichert Patientendaten unverschlüsselt auf einem freigegebene
 
 <details>
   <summary>
-	Block: Datenschutz vs. Datensicherheit – Anwendung & Transfer (~30')
+	Block: Datenschutz vs. Datensicherheit – Anwendung & Transfer (~15')
   </summary>
 
-### Konkrete Szenarien aus der Praxis
+### Konkrete Szenarien aus der Praxis (Vertiefung)
 
-> Sozialform: Plenum
-> Dauer: 20min
+> Sozialform: Einzelarbeit – wenn Sie mit der Lernstrecke früher fertig sind
 
 **Szenario 1: Arztpraxis**
 Eine Arztpraxis speichert Patientenakten auf einem unverschlüsselten USB-Stick, der verloren geht.
@@ -316,7 +314,7 @@ Prüfen Sie Ihren eigenen Browser:
 
 <details>
   <summary>
-	Block: KI-Werkstatt 2 – Faktencheck einer KI-Aussage (~15')
+	Block: KI-Werkstatt 2 – Faktencheck einer KI-Aussage (entfällt in dieser Durchführung)
   </summary>
 
 ## KI als Recherche-Einstieg – mit Faktencheck-Pflicht
