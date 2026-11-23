@@ -142,7 +142,7 @@ Ein Krankenhaus speichert Patientendaten unverschlüsselt auf einem freigegebene
 
 <details>
   <summary>
-	Block: Datenschutz vs. Datensicherheit – Anwendung & Transfer (~15')
+	Block: Datenschutz vs. Datensicherheit – Anwendung & Transfer (~20')
   </summary>
 
 ### Konkrete Szenarien aus der Praxis (Vertiefung)
