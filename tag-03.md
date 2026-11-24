@@ -174,7 +174,7 @@ Ein Online-Shop verkauft Kundendaten (Name, E-Mail, Kaufhistorie) an Werbepartne
 **Szenario 3: Schulverwaltung**
 Die Schulverwaltung verwendet dieselbe Software seit 15 Jahren, ohne Updates einzuspielen. Eine bekannte Sicherheitslücke ermöglicht Angreifern den Zugriff auf Schülerdaten.
 - *Datensicherheit*: Fehlende Updates = vermeidbare Schwachstelle → organisatorisches Versagen
-- *Datenschutz*: Schülerdaten (besonders schutzwürdig, da Minderjährige) wurden gefährdet → mehrfacher Verstoss
+- *Datenschutz*: Schülerdaten wurden gefährdet. Minderjährige sind besonders schutzbedürftig, ihre Daten zählen aber nicht schon deshalb zu den besonders schützenswerten Personendaten (abschliessende Liste in Art. 5 lit. c revDSG)
 
 ---
 
