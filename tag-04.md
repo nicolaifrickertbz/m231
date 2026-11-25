@@ -2,7 +2,7 @@
 
 <details>
   <summary>
-	Block: Lizenzmodelle & Urheberrecht / Creative Commons (~50')
+	Block: Lizenzmodelle & Urheberrecht / Creative Commons (~45')
   </summary>
 
 ## Urheberrecht
@@ -33,19 +33,19 @@ Das **Urheberrecht** schützt geistige Schöpfungen (Texte, Bilder, Code, Musik 
 | Quellcode | Öffentlich zugänglich |
 | Verwendung | Kostenlos, oft auch kommerziell |
 | Weitergabe | Erlaubt, je nach Lizenz |
-| Beispiele | Linux, Firefox, LibreOffice, VS Code |
+| Beispiele | Linux, Firefox, LibreOffice |
 
 **Wichtige OSS-Lizenzen:**
 
 | Lizenz | Copyleft | Kommerziell | Bemerkung |
 |---|:---:|:---:|---|
 | MIT | — | ✓ | Sehr permissiv, fast keine Einschränkungen |
-| Apache 2.0 | — | ✓ | Patentschutz inklusive |
-| GPL v3 | ✓ | ✓ | Abgeleitete Werke müssen auch GPL sein |
+| Apache 2.0 | — | ✓ | Ausdrückliche Patentlizenz: Die Autoren erlauben die Nutzung ihrer Patente, soweit sie ihre Beiträge betreffen. Wer selbst wegen des Werks eine Patentklage einreicht, verliert diese Patentlizenz. |
+| GPL v3 | ✓ | ✓ | Abgeleitete Werke müssen bei der Weitergabe ebenfalls unter der GPL stehen. Enthält auch eine ausdrückliche Patentlizenz. |
 | LGPL | Teilweise | ✓ | Für Bibliotheken (Linking erlaubt) |
 | AGPL | ✓ | ✓ | GPL auch für Netzwerknutzung |
 
-> **Copyleft:** Wer GPL-Code verwendet und verändert, muss die Änderungen ebenfalls unter GPL veröffentlichen.
+> **Copyleft:** Die Pflicht entsteht bei der **Weitergabe** des veränderten Programms: Wer es weitergibt, muss den Quellcode des abgeleiteten Werks unter der GPL mitliefern. Private Nutzung ohne Weitergabe löst keine Pflicht aus. Verkaufen ist erlaubt. Bei der AGPL gilt das auch, wenn andere das veränderte Programm nur über ein Netzwerk nutzen (z. B. SaaS, Web-App).
 
 ---
 
@@ -56,12 +56,12 @@ Welche Lizenz passt zu Ihrem Projekt? Dieses Diagramm hilft bei der Wahl:
 ```mermaid
 flowchart TD
   A["Ich veröffentliche\nOpen-Source-Code"]
-  B{"Willst du, dass\nÄnderungen ebenfalls\noffen bleiben müssen?\n(Copyleft)"}
+  B{"Sollen Änderungen\nebenfalls offen\nbleiben müssen?\n(Copyleft)"}
   C{"Wird der Code auch\nüber Netzwerk genutzt?\n(z.B. SaaS, Web-App)"}
   D["AGPL\nStärkstes Copyleft –\nauch Netzwerknutzung\nerfasst"]
   E["GPL v3\nKlassisches Copyleft –\nfür Desktop-Software\nund Bibliotheken"]
-  F{"Willst du\nPatentschutz für\nNutzende?"}
-  G["Apache 2.0\nPermissiv + expliziter\nPatentverzicht"]
+  F{"Soll die Lizenz\nden Nutzenden eine\nausdrückliche\nPatentlizenz geben?"}
+  G["Apache 2.0\nPermissiv +\nPatentlizenz"]
   H["MIT\nMaximale Freiheit –\nfast keine Auflagen"]
 
   A --> B
@@ -94,15 +94,15 @@ flowchart TD
 | **SA** | Share Alike – Weitergabe unter gleichen Bedingungen |
 | **NC** | Non-Commercial – keine kommerzielle Nutzung |
 | **ND** | No Derivatives – keine Bearbeitungen |
-| **CC0** | Public Domain – alle Rechte aufgegeben |
+| **CC0** | Public Domain – Verzicht auf alle Rechte, soweit rechtlich möglich |
 
 **CC-Lizenzen im Vergleich – Anwendungsfälle:**
 
 | Lizenz | Bearbeitung erlaubt | Kommerziell erlaubt | Typischer Anwendungsfall |
 |---|:---:|:---:|---|
 | CC0 | ✓ | ✓ | Wissenschaftliche Daten, Public Domain |
-| CC BY | ✓ | ✓ | Wikipedia, akademische Texte |
-| CC BY-SA | ✓ | ✓ | Wikipedia (Bilder), freie Lehrmaterialien |
+| CC BY | ✓ | ✓ | Akademische Texte |
+| CC BY-SA | ✓ | ✓ | Wikipedia-Texte, freie Lehrmaterialien |
 | CC BY-NC | ✓ | — | Bildungsmaterial für den Unterricht |
 | CC BY-ND | — | ✓ | Pressemitteilungen, offizielle Dokumente |
 | CC BY-NC-SA | ✓ | — | Schüler-/Studentenprojekte |
@@ -112,23 +112,35 @@ flowchart TD
 
 ### Transferaufgabe: Lizenz bestimmen
 
-> Sozialform: Partnerarbeit
-> Dauer: 10min
+> Sozialform: Partnerarbeit → Plenum
+> Dauer: 15min
 > Abgabe: Plenum
 
-Bestimmen Sie für jedes Szenario die passende Lizenz:
+**Teil A – Welche Lizenz passt?** Begründen Sie jede Wahl mit der Bedingung, die den Ausschlag gibt.
 
-1. Ein Schulprojekt soll frei nutzbar und veränderbar sein, aber immer mit Namensnennung.
-2. Ein Unternehmen möchte Code veröffentlichen, Änderungen aber nicht zwingend zurückgeben.
-3. Ein Fotograf erlaubt kostenlose Nutzung seiner Bilder, aber keine Bearbeitungen und keine kommerzielle Verwendung.
-4. Eine Bibliothek soll in proprietäre Software eingebunden werden dürfen.
+| Nr. | Szenario | Lizenz | Begründung |
+|---|---|---|---|
+| 1 | Ein Verein veröffentlicht Fotos seiner Anlässe. Andere dürfen sie bearbeiten und weiterverbreiten, aber nicht für Werbung oder Verkauf. Bearbeitete Fassungen sollen unter denselben Bedingungen weitergegeben werden. | | |
+| 2 | Eine Firma veröffentlicht eine Bibliothek. Andere Firmen sollen sie in ihre proprietären Produkte einbauen dürfen. Die Nutzenden sollen ausserdem ausdrücklich die Patente der Autoren nutzen dürfen, soweit diese den Code betreffen. | | |
+| 3 | Ein Entwickler veröffentlicht ein Desktop-Werkzeug. Wer es verändert und weitergibt, soll den veränderten Quellcode ebenfalls offenlegen müssen. | | |
+
+**Teil B – Ist das erlaubt?** Antworten Sie mit Ja oder Nein und nennen Sie die Lizenzbedingung, auf die es ankommt.
+
+| | Situation | Erlaubt? | Begründung |
+|---|---|---|---|
+| a | Sie bauen eine MIT-lizenzierte Bibliothek in die App Ihres Lehrbetriebs ein. Die App wird verkauft, ihr Quellcode bleibt geschlossen. | | |
+| b | Ihr Team verändert ein Programm unter GPL v3 und setzt es nur intern im Lehrbetrieb ein, ohne es weiterzugeben. Den veränderten Quellcode veröffentlichen Sie nicht. | | |
+| c | Sie verwenden ein Bild unter CC BY-NC auf der Website Ihres Lehrbetriebs, um ein Produkt zu bewerben. | | |
+| d | Sie kürzen ein Video unter CC BY-ND auf die Hälfte und veröffentlichen es mit Namensnennung. | | |
+
+Bearbeiten Sie beide Teile zu zweit. Im Plenum werden die Lösungen besprochen.
 
 </details>
 
 
 <details>
   <summary>
-	Block: Privacy-Threats – Cookies, Tracking & Fingerprinting (~45')
+	Block: Privacy-Threats – Cookies, Tracking & Fingerprinting (~30')
   </summary>
 
 ## Privacy-Threats
@@ -144,7 +156,8 @@ Cookies sind kleine Textdateien, die Webseiten im Browser speichern.
 | **Session-Cookies** | Login-Status halten | Niedrig (temporär) |
 | **Persistente Cookies** | Präferenzen merken, Wiedererkennung | Mittel |
 | **Third-Party-Cookies** | Tracking über verschiedene Webseiten | **Hoch** |
-| **Tracking-Pixel** | Unsichtbares 1×1 Pixel verfolgt E-Mail-Öffnungen | Hoch |
+
+> **Verwandte Technik – Tracking-Pixel:** kein Cookie, sondern ein unsichtbares 1×1-Pixel-Bild, z. B. in E-Mails. Wird es geladen, erfährt der Absender, dass die E-Mail geöffnet wurde. Datenschutz-Relevanz hoch.
 
 ---
 
@@ -175,9 +188,9 @@ sequenceDiagram
   participant W as Webseite
   participant T as Tracking-Server
 
-  B->>W: HTTP-Anfrage\n(lädt Seite)
+  B->>W: HTTP-Anfrage (lädt Seite)\nBrowser schickt User-Agent\nund Sprache immer mit
   W-->>B: HTML + eingebettetes\nTracking-Script
-  B->>W: Fingerprint-Daten automatisch übermittelt:\nBildschirmauflösung, Zeitzone, Sprache,\ninstallierte Schriften, Canvas-Hash,\nWebGL-Infos, User-Agent, ...
+  B->>W: Script liest weitere Merkmale aus und sendet sie:\nBildschirmauflösung, Zeitzone,\ninstallierte Schriften, Canvas-Hash,\nWebGL-Infos, ...
   W->>T: Fingerprint-Hash senden\n(z.B. SHA256 der Kombination)
   T-->>T: Profil suchen / neu anlegen
   T-->>W: Profil-ID + gespeicherte\nNutzerdaten zurückgeben
@@ -203,7 +216,7 @@ sequenceDiagram
 ### Rechtliche Situation
 
 **DSGVO / Cookie-Consent:**
-- Third-Party-Cookies brauchen **ausdrückliche Einwilligung**
+- Cookies, die nicht technisch notwendig sind (insbesondere Third-Party- und Tracking-Cookies), brauchen eine **vorgängige, aktive Einwilligung**
 - Cookie-Consent-Banner müssen eine echte Wahlmöglichkeit bieten
 - «Ablehnen» muss genauso einfach sein wie «Akzeptieren»
 
@@ -220,25 +233,35 @@ sequenceDiagram
 
 ---
 
-### Transferaufgabe: Eigenen Fingerprint prüfen
+### Transferaufgabe: Welche Tracking-Methode ist das?
 
-> Sozialform: Einzelarbeit
+> Sozialform: Einzelarbeit → Plenum
 > Dauer: 10min
-> Abgabe: Lernjournal-Eintrag (mindestens 3 Erkenntnisse)
+> Abgabe: Plenum
 
-1. Öffnen Sie https://coveryourtracks.eff.org in Ihrem normalen Browser.
-2. Klicken Sie auf «Test Your Browser».
-3. Notieren Sie in Ihrem Lernjournal:
-   - Ist Ihr Browser eindeutig identifizierbar (Unique / Not Unique)?
-   - Welche drei Merkmale tragen am meisten zur Eindeutigkeit bei?
-   - Was würden Sie ändern, um Ihren Fingerprint weniger eindeutig zu machen?
+*(Den eigenen Fingerprint haben Sie an Tag 3 im Datenschutz-Check geprüft.)*
+
+**Teil A:** Welche Methode bzw. welcher Cookie-Typ ist hier im Spiel? Nennen Sie den Hinweis im Text, an dem Sie es erkennen.
+
+| Nr. | Situation | Methode / Cookie-Typ | Hinweis im Text |
+|---|---|---|---|
+| 1 | Sie schauen in einem Onlineshop Laufschuhe an. Eine Stunde später zeigt Ihnen eine Newsseite Werbung für genau diese Schuhe. Auf beiden Seiten ist dasselbe Werbenetzwerk eingebunden. | | |
+| 2 | Ein Newsletter-Versender weiss, dass Sie seine Mail gestern um 21:14 Uhr geöffnet haben. Auf einen Link haben Sie nicht geklickt. | | |
+| 3 | Zwei Lernende sitzen nebeneinander im selben WLAN. Beide haben in ihrem Browser alle Cookies blockiert. Eine Webseite unterscheidet die beiden Laptops trotzdem bei jedem Besuch. | | |
+| 4 | Sie sind im Browser bei Ihrem Social-Media-Konto angemeldet. Auf einer Rezeptseite ohne eigenes Login zeigt ein eingebetteter «Gefällt mir»-Button an, dass drei Ihrer Kontakte die Seite mögen. | | |
+| 5 | Sie melden sich in einem Webshop an und legen etwas in den Warenkorb. Nachdem Sie den Browser geschlossen und wieder geöffnet haben, sind Sie abgemeldet und der Warenkorb ist leer. | | |
+
+**Teil B:**
+
+1. Welche Schutzmassnahme aus der Liste hilft in Situation 1, welche in Situation 3? Begründen Sie.
+2. Erklären Sie an Situation 3, warum «Regelmässig Cookies löschen» gegen Fingerprinting nicht hilft.
 
 </details>
 
 
 <details>
   <summary>
-	Block: Dark Patterns & UX-Manipulation (~40')
+	Block: Dark Patterns & UX-Manipulation (~25')
   </summary>
 
 ## Dark Patterns
@@ -307,7 +330,7 @@ Eine App fragt nach Zugriff auf das Adressbuch «um Freunde einzuladen». Dann w
 ### Rechtliche Lage
 
 - DSGVO: Dark Patterns bei Cookie-Consent sind **unzulässig**
-- EU Digital Services Act (DSA): Verbietet bestimmte Dark Patterns explizit (Art. 25 DSA für sehr grosse Plattformen)
+- EU Digital Services Act (DSA): Verbietet bestimmte Dark Patterns ausdrücklich (Art. 25 DSA, gilt für Anbieter von Online-Plattformen, nicht nur für sehr grosse)
 - Konsumentenschutz: Irreführende Praktiken können UWG (Bundesgesetz gegen unlauteren Wettbewerb) verletzen
 - EU-Kommission: Aktive Durchsetzung, z. B. Bussgelder gegen grosse Plattformen
 
@@ -332,7 +355,7 @@ Wenn Sie ein Dark Pattern entdecken, können Sie es melden:
 
 <details>
   <summary>
-	Block: KI-Werkstatt 3 – KI-gestützte Dark-Pattern-Analyse (~15')
+	Block: KI-Werkstatt 3 – KI-gestützte Dark-Pattern-Analyse (~20')
   </summary>
 
 ## KI als Analyse-Werkzeug – mit kritischer Prüfung
@@ -343,15 +366,17 @@ KI kann helfen, Webseiten systematisch auf Dark Patterns zu durchsuchen – erse
 
 ### Transferaufgabe: Dark Pattern entlarven – mit KI-Unterstützung
 
-> Sozialform: Partnerarbeit
-> Dauer: 15min
-> Abgabe: Plenum
+> Sozialform: Partnerarbeit → Plenum
+> Dauer: 20min
+> Abgabe: Plenum, Ergebnis im Lernjournal festhalten
 
-1. Besuchen Sie zwei Webseiten Ihrer Wahl (z. B. ein Online-Shop mit Newsletter-Anmeldung).
-2. Beschreiben Sie einer KI kurz, was Sie auf der Seite sehen (z. B. Wortlaut der Buttons, Anordnung), und fragen Sie, ob dies ein Dark Pattern sein könnte und welches.
-3. **Prüfen Sie die KI-Antwort kritisch:** Passt die genannte Kategorie wirklich zur Tabelle von vorhin? Übertreibt oder untertreibt die KI die Einschätzung? Erfindet sie ein Pattern, das gar nicht zutrifft?
-4. Notieren Sie: Webseite, vermutetes Dark Pattern, ob die KI-Einschätzung nach eigener Prüfung zutraf, und Ihre eigene finale Begründung.
+1. Besuchen Sie zwei Webseiten Ihrer Wahl (z. B. ein Online-Shop mit Newsletter-Anmeldung, ein Cookie-Banner, eine Abo-Kündigung).
+2. **Zuerst ohne KI:** Halten Sie fest, welches Dark Pattern Sie vermuten, und begründen Sie es mit der Tabelle von vorhin. Findet sich kein Dark Pattern, halten Sie fest, woran Sie das erkennen.
+3. Beschreiben Sie danach einer KI, was Sie auf der Seite sehen (z. B. Wortlaut der Buttons, Anordnung, Anzahl Klicks), und fragen Sie, ob dies ein Dark Pattern sein könnte und welches.
+4. **Vergleichen Sie und prüfen Sie die KI-Antwort kritisch:** Stimmt sie mit Ihrer Einschätzung überein? Passt die genannte Kategorie wirklich zur Tabelle? Übertreibt oder untertreibt die KI? Erfindet sie ein Pattern, das gar nicht zutrifft?
+5. Beschreiben Sie für eine der beiden Seiten, wie die Stelle gestaltet sein müsste, damit sie kein Dark Pattern mehr ist.
+6. Notieren Sie: Webseite, Ihr vermutetes Dark Pattern, die Einschätzung der KI, wer nach Ihrer Prüfung recht hatte, und Ihre finale Begründung.
 
-*(Optional, nicht bewertet: Ergänzen Sie Ihr Fazit informell im Lernjournal – wo lag die KI richtig, wo lag sie daneben?)*
+Halten Sie das Ergebnis danach im Lernjournal fest.
 
 </details>
