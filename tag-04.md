@@ -120,18 +120,18 @@ flowchart TD
 
 | Nr. | Szenario | Lizenz | Begründung |
 |---|---|---|---|
-| 1 | Ein Verein veröffentlicht Fotos seiner Anlässe. Andere dürfen sie bearbeiten und weiterverbreiten, aber nicht für Werbung oder Verkauf. Bearbeitete Fassungen sollen unter denselben Bedingungen weitergegeben werden. | | |
-| 2 | Eine Firma veröffentlicht eine Bibliothek. Andere Firmen sollen sie in ihre proprietären Produkte einbauen dürfen. Die Nutzenden sollen ausserdem ausdrücklich die Patente der Autoren nutzen dürfen, soweit diese den Code betreffen. | | |
-| 3 | Ein Entwickler veröffentlicht ein Desktop-Werkzeug. Wer es verändert und weitergibt, soll den veränderten Quellcode ebenfalls offenlegen müssen. | | |
+| 1 | Eine Gemeinde veröffentlicht ihre Messdaten zur Luftqualität. Alle sollen sie ohne jede Bedingung verwenden dürfen, auch ohne die Gemeinde zu nennen. | | |
+| 2 | Ein Fotograf erlaubt, seine Bilder zu verbreiten, auch in Firmenbroschüren. Er will dabei immer genannt werden, und die Bilder dürfen nicht verändert werden. | | |
+| 3 | Ein Team veröffentlicht eine Programmbibliothek. Änderungen an der Bibliothek selbst sollen offen bleiben müssen. Programme, die die Bibliothek nur einbinden, dürfen proprietär bleiben. | | |
 
 **Teil B – Ist das erlaubt?** Antworten Sie mit Ja oder Nein und nennen Sie die Lizenzbedingung, auf die es ankommt.
 
 | | Situation | Erlaubt? | Begründung |
 |---|---|---|---|
-| a | Sie bauen eine MIT-lizenzierte Bibliothek in die App Ihres Lehrbetriebs ein. Die App wird verkauft, ihr Quellcode bleibt geschlossen. | | |
+| a | Sie verkaufen ein unverändertes Programm unter GPL v3 auf einem USB-Stick und legen den Quellcode bei. | | |
 | b | Ihr Team verändert ein Programm unter GPL v3 und setzt es nur intern im Lehrbetrieb ein, ohne es weiterzugeben. Den veränderten Quellcode veröffentlichen Sie nicht. | | |
 | c | Sie verwenden ein Bild unter CC BY-NC auf der Website Ihres Lehrbetriebs, um ein Produkt zu bewerben. | | |
-| d | Sie kürzen ein Video unter CC BY-ND auf die Hälfte und veröffentlichen es mit Namensnennung. | | |
+| d | Sie übersetzen einen Artikel unter CC BY-SA ins Deutsche und veröffentlichen die Übersetzung mit Namensnennung unter CC BY-NC. | | |
 
 Bearbeiten Sie beide Teile zu zweit. Im Plenum werden die Lösungen besprochen.
 
@@ -245,16 +245,16 @@ sequenceDiagram
 
 | Nr. | Situation | Methode / Cookie-Typ | Hinweis im Text |
 |---|---|---|---|
-| 1 | Sie schauen in einem Onlineshop Laufschuhe an. Eine Stunde später zeigt Ihnen eine Newsseite Werbung für genau diese Schuhe. Auf beiden Seiten ist dasselbe Werbenetzwerk eingebunden. | | |
-| 2 | Ein Newsletter-Versender weiss, dass Sie seine Mail gestern um 21:14 Uhr geöffnet haben. Auf einen Link haben Sie nicht geklickt. | | |
-| 3 | Zwei Lernende sitzen nebeneinander im selben WLAN. Beide haben in ihrem Browser alle Cookies blockiert. Eine Webseite unterscheidet die beiden Laptops trotzdem bei jedem Besuch. | | |
-| 4 | Sie sind im Browser bei Ihrem Social-Media-Konto angemeldet. Auf einer Rezeptseite ohne eigenes Login zeigt ein eingebetteter «Gefällt mir»-Button an, dass drei Ihrer Kontakte die Seite mögen. | | |
-| 5 | Sie melden sich in einem Webshop an und legen etwas in den Warenkorb. Nachdem Sie den Browser geschlossen und wieder geöffnet haben, sind Sie abgemeldet und der Warenkorb ist leer. | | |
+| 1 | Sie stellen eine Nachrichtenseite auf Französisch um. Eine Woche später öffnen Sie die Seite wieder, und sie erscheint immer noch auf Französisch. | | |
+| 2 | Sie sind im Browser bei Ihrem Social-Media-Konto angemeldet. Auf einer Rezeptseite ohne eigenes Login zeigt ein eingebetteter «Gefällt mir»-Button an, dass drei Ihrer Kontakte die Seite mögen. | | |
+| 3 | Sie melden sich in einem Webshop an und legen etwas in den Warenkorb. Nachdem Sie den Browser geschlossen und wieder geöffnet haben, sind Sie abgemeldet und der Warenkorb ist leer. | | |
+| 4 | Eine Testseite zeigt Ihnen Ihre Bildschirmauflösung, Zeitzone, installierten Schriften und einen Canvas-Hash an und meldet: «Ihr Browser ist unter allen getesteten Browsern einzigartig.» | | |
+| 5 | Auf einer Gesundheitsseite sind Scripts von fünf fremden Domains eingebunden. Dieselben Domains finden Sie auch auf einer Shoppingseite und einem Stellenportal. Was können die Firmen hinter diesen Domains ableiten, und warum ist das bei einer Gesundheitsseite besonders heikel? | | |
 
 **Teil B:**
 
-1. Welche Schutzmassnahme aus der Liste hilft in Situation 1, welche in Situation 3? Begründen Sie.
-2. Erklären Sie an Situation 3, warum «Regelmässig Cookies löschen» gegen Fingerprinting nicht hilft.
+1. Sie blockieren in Ihrem Browser die Third-Party-Cookies. Bei welchen der Situationen 1–5 ändert sich dadurch etwas, bei welchen nicht? Begründen Sie.
+2. Welche Schutzmassnahme aus der Liste hilft in Situation 4? Begründen Sie.
 
 </details>
 
