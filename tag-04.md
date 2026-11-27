@@ -372,7 +372,7 @@ KI kann helfen, Webseiten systematisch auf Dark Patterns zu durchsuchen – erse
 
 1. Öffnen Sie die [Hall of Shame](https://www.deceptive.design/hall-of-shame/) und wählen Sie drei Beispiele von verschiedenen Firmen. Die Beispiele wurden von Nutzerinnen und Nutzern eingereicht und sind nicht überprüft.
 2. **Zuerst ohne KI:** Ordnen Sie jedes Beispiel einem Dark Pattern aus der Tabelle von vorhin zu und begründen Sie es. Passt keines oder ist es gar kein Dark Pattern, begründen Sie das.
-3. Machen Sie danach von jedem Beispiel einen Screenshot, laden Sie ihn in eine KI hoch und fragen Sie, ob dies ein Dark Pattern sein könnte und welches.
+3. Laden Sie danach von jedem Beispiel einen Screenshot in eine KI hoch oder beschreiben Sie ihr das Beispiel, und fragen Sie, ob dies ein Dark Pattern sein könnte und welches.
 4. **Vergleichen Sie drei Einschätzungen:** Ihre, die der KI und die Bezeichnung auf der Website. Die Website verwendet eigene Begriffe (z. B. «difficult to unsubscribe»): Welchem Pattern der Tabelle entspricht diese Bezeichnung? Wo weichen die drei Einschätzungen voneinander ab, und wer hat nach Ihrer Prüfung recht? Übertreibt die KI, oder erfindet sie ein Pattern, das gar nicht zutrifft?
 5. Beschreiben Sie für ein Beispiel, wie die Stelle gestaltet sein müsste, damit sie kein Dark Pattern mehr ist.
 6. Notieren Sie pro Beispiel: Link, Ihre Zuordnung, die Einschätzung der KI, die Bezeichnung der Website, wer nach Ihrer Prüfung recht hatte, und Ihre finale Begründung.
