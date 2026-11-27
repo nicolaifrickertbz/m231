@@ -372,7 +372,7 @@ KI kann helfen, Webseiten systematisch auf Dark Patterns zu durchsuchen – erse
 
 1. Besuchen Sie zwei Webseiten Ihrer Wahl (z. B. ein Online-Shop mit Newsletter-Anmeldung, ein Cookie-Banner, eine Abo-Kündigung).
 2. **Zuerst ohne KI:** Halten Sie fest, welches Dark Pattern Sie vermuten, und begründen Sie es mit der Tabelle von vorhin. Findet sich kein Dark Pattern, halten Sie fest, woran Sie das erkennen.
-3. Beschreiben Sie danach einer KI, was Sie auf der Seite sehen (z. B. Wortlaut der Buttons, Anordnung, Anzahl Klicks), und fragen Sie, ob dies ein Dark Pattern sein könnte und welches.
+3. Machen Sie danach einen Screenshot der Stelle, laden Sie ihn in eine KI hoch und fragen Sie, ob dies ein Dark Pattern sein könnte und welches. Ein Link allein reicht nicht: Die KI sieht Cookie-Banner, Popups und Warenkorb nicht so wie Sie.
 4. **Vergleichen Sie und prüfen Sie die KI-Antwort kritisch:** Stimmt sie mit Ihrer Einschätzung überein? Passt die genannte Kategorie wirklich zur Tabelle? Übertreibt oder untertreibt die KI? Erfindet sie ein Pattern, das gar nicht zutrifft?
 5. Beschreiben Sie für eine der beiden Seiten, wie die Stelle gestaltet sein müsste, damit sie kein Dark Pattern mehr ist.
 6. Notieren Sie: Webseite, Ihr vermutetes Dark Pattern, die Einschätzung der KI, wer nach Ihrer Prüfung recht hatte, und Ihre finale Begründung.
