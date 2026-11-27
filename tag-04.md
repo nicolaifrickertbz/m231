@@ -370,12 +370,12 @@ KI kann helfen, Webseiten systematisch auf Dark Patterns zu durchsuchen – erse
 > Dauer: 20min
 > Abgabe: Plenum, Ergebnis im Lernjournal festhalten
 
-1. Besuchen Sie zwei Webseiten Ihrer Wahl (z. B. ein Online-Shop mit Newsletter-Anmeldung, ein Cookie-Banner, eine Abo-Kündigung).
-2. **Zuerst ohne KI:** Halten Sie fest, welches Dark Pattern Sie vermuten, und begründen Sie es mit der Tabelle von vorhin. Findet sich kein Dark Pattern, halten Sie fest, woran Sie das erkennen.
-3. Machen Sie danach einen Screenshot der Stelle, laden Sie ihn in eine KI hoch und fragen Sie, ob dies ein Dark Pattern sein könnte und welches. Ein Link allein reicht nicht: Die KI sieht Cookie-Banner, Popups und Warenkorb nicht so wie Sie.
-4. **Vergleichen Sie und prüfen Sie die KI-Antwort kritisch:** Stimmt sie mit Ihrer Einschätzung überein? Passt die genannte Kategorie wirklich zur Tabelle? Übertreibt oder untertreibt die KI? Erfindet sie ein Pattern, das gar nicht zutrifft?
-5. Beschreiben Sie für eine der beiden Seiten, wie die Stelle gestaltet sein müsste, damit sie kein Dark Pattern mehr ist.
-6. Notieren Sie: Webseite, Ihr vermutetes Dark Pattern, die Einschätzung der KI, wer nach Ihrer Prüfung recht hatte, und Ihre finale Begründung.
+1. Öffnen Sie die [Hall of Shame](https://www.deceptive.design/hall-of-shame/) und wählen Sie drei Beispiele von verschiedenen Firmen. Die Beispiele wurden von Nutzerinnen und Nutzern eingereicht und sind nicht überprüft.
+2. **Zuerst ohne KI:** Ordnen Sie jedes Beispiel einem Dark Pattern aus der Tabelle von vorhin zu und begründen Sie es. Passt keines oder ist es gar kein Dark Pattern, begründen Sie das.
+3. Machen Sie danach von jedem Beispiel einen Screenshot, laden Sie ihn in eine KI hoch und fragen Sie, ob dies ein Dark Pattern sein könnte und welches.
+4. **Vergleichen Sie drei Einschätzungen:** Ihre, die der KI und die Bezeichnung auf der Website. Die Website verwendet eigene Begriffe (z. B. «difficult to unsubscribe»): Welchem Pattern der Tabelle entspricht diese Bezeichnung? Wo weichen die drei Einschätzungen voneinander ab, und wer hat nach Ihrer Prüfung recht? Übertreibt die KI, oder erfindet sie ein Pattern, das gar nicht zutrifft?
+5. Beschreiben Sie für ein Beispiel, wie die Stelle gestaltet sein müsste, damit sie kein Dark Pattern mehr ist.
+6. Notieren Sie pro Beispiel: Link, Ihre Zuordnung, die Einschätzung der KI, die Bezeichnung der Website, wer nach Ihrer Prüfung recht hatte, und Ihre finale Begründung.
 
 Halten Sie das Ergebnis danach im Lernjournal fest.
 
